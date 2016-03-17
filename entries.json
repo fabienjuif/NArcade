@@ -18,6 +18,16 @@
             "id": "71",
             "name": "GroupsManager",
             "type": "script"
+          },
+          {
+            "id": "83",
+            "name": "MessagesManager",
+            "type": "script"
+          },
+          {
+            "id": "89",
+            "name": "PlayerManager",
+            "type": "script"
           }
         ]
       },
@@ -89,6 +99,21 @@
             "id": "79",
             "name": "StaticBehavior",
             "type": "script"
+          },
+          {
+            "id": "88",
+            "name": "ChoosePlayerBehaviour",
+            "type": "script"
+          },
+          {
+            "id": "91",
+            "name": "TypeSlackName",
+            "type": "script"
+          },
+          {
+            "id": "93",
+            "name": "DeathBehavior",
+            "type": "script"
           }
         ]
       },
@@ -105,6 +130,11 @@
     "type": null,
     "children": [
       {
+        "id": "86",
+        "name": "PlayerChoice",
+        "type": "scene"
+      },
+      {
         "id": "23",
         "name": "TestScene",
         "type": "scene"
@@ -117,6 +147,11 @@
       {
         "id": "65",
         "name": "TestScene3",
+        "type": "scene"
+      },
+      {
+        "id": "90",
+        "name": "SlackName",
         "type": "scene"
       }
     ]
@@ -228,6 +263,16 @@
       {
         "id": "14",
         "name": "Player",
+        "type": "sprite"
+      },
+      {
+        "id": "87",
+        "name": "yvonnick",
+        "type": "sprite"
+      },
+      {
+        "id": "85",
+        "name": "fabien.juif",
         "type": "sprite"
       },
       {
@@ -345,6 +390,11 @@
       {
         "id": "67",
         "name": "Bot",
+        "type": "scene"
+      },
+      {
+        "id": "92",
+        "name": "DeathZone",
         "type": "scene"
       }
     ]

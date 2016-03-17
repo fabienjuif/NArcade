@@ -97,44 +97,6 @@
       "prefab": null
     },
     {
-      "id": "15",
-      "name": "Text",
-      "children": [],
-      "components": [
-        {
-          "type": "TextRenderer",
-          "config": {
-            "fontAssetId": "48",
-            "text": "Ceci est un test",
-            "alignment": "center",
-            "size": 40,
-            "color": "000000",
-            "verticalAlignment": "center"
-          },
-          "id": "0"
-        }
-      ],
-      "position": {
-        "x": 0,
-        "y": 3,
-        "z": 1
-      },
-      "orientation": {
-        "x": 0,
-        "y": 0,
-        "z": 0,
-        "w": 1
-      },
-      "scale": {
-        "x": 1,
-        "y": 1,
-        "z": 1
-      },
-      "visible": true,
-      "layer": 0,
-      "prefab": null
-    },
-    {
       "id": "18",
       "name": "Exit",
       "children": [],
@@ -159,33 +121,6 @@
       "layer": 0,
       "prefab": {
         "sceneAssetId": "41"
-      }
-    },
-    {
-      "id": "23",
-      "name": "Exit 3",
-      "children": [],
-      "components": [],
-      "position": {
-        "x": 4,
-        "y": -5.025729656219482,
-        "z": 0
-      },
-      "orientation": {
-        "x": 0,
-        "y": 0,
-        "z": 0,
-        "w": 1
-      },
-      "scale": {
-        "x": 1,
-        "y": 1,
-        "z": 1
-      },
-      "visible": true,
-      "layer": 0,
-      "prefab": {
-        "sceneAssetId": "63"
       }
     },
     {
@@ -537,18 +472,18 @@
       "prefab": null
     },
     {
-      "id": "25",
-      "name": "Items",
+      "id": "36",
+      "name": "Coins",
       "children": [
         {
           "id": "21",
-          "name": "Coin",
+          "name": "cv_1",
           "children": [],
           "components": [],
           "position": {
             "x": -3,
-            "y": 3,
-            "z": 1
+            "y": 3.013,
+            "z": 0
           },
           "orientation": {
             "x": 0,
@@ -566,8 +501,60 @@
           "prefab": {
             "sceneAssetId": "55"
           }
+        },
+        {
+          "id": "37",
+          "name": "cv_4",
+          "children": [],
+          "components": [],
+          "position": {
+            "x": -4.506573677062988,
+            "y": -1.700049877166748,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 0.7,
+            "y": 0.7,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": {
+            "sceneAssetId": "56"
+          }
         }
       ],
+      "components": [],
+      "position": {
+        "x": -2,
+        "y": -1.013,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "25",
+      "name": "Items",
+      "children": [],
       "components": [],
       "position": {
         "x": -2,
@@ -641,6 +628,33 @@
       "layer": 0,
       "prefab": {
         "sceneAssetId": "67"
+      }
+    },
+    {
+      "id": "38",
+      "name": "DeathZone",
+      "children": [],
+      "components": [],
+      "position": {
+        "x": -0.662873387336731,
+        "y": -10,
+        "z": 15
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": {
+        "sceneAssetId": "92"
       }
     }
   ]

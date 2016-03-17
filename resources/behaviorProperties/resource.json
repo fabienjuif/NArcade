@@ -84,6 +84,24 @@
       "line": 0,
       "parentBehavior": null,
       "properties": []
+    },
+    "ChoosePlayerBehavior": {
+      "scriptId": "88",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "TypeSlackNameBehavior": {
+      "scriptId": "91",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "DeathBehavior": {
+      "scriptId": "93",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
     }
   }
 }

@@ -2,6 +2,8 @@ class LevelManager {
   
   private currentLevel = 0;
   private levels:string[] = [
+    "Scenes/PlayerChoice",
+    "Scenes/SlackName",
     "Scenes/TestScene",
     "Scenes/TestScene2",
     "Scenes/TestScene3"
@@ -9,6 +11,11 @@ class LevelManager {
   
   public getCurrentLevel(){
     return this.currentLevel;
+  }
+
+  public getCurrentScene(){
+    var split = this.levels[this.currentLevel].split('/');
+    return split[split.length];
   }
   
   public getLevels(){
@@ -30,6 +37,10 @@ class LevelManager {
 
   public previous(){
     this.currentLevel--;
+    this.loadCurrentScene();
+  }
+
+  public reload(){
     this.loadCurrentScene();
   }
 
