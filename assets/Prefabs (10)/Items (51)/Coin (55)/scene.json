@@ -47,6 +47,18 @@
             "propertyValues": {}
           },
           "id": "2"
+        },
+        {
+          "type": "TextRenderer",
+          "config": {
+            "fontAssetId": "48",
+            "text": "",
+            "alignment": "left",
+            "size": null,
+            "color": "4e33fd",
+            "verticalAlignment": "bottom"
+          },
+          "id": "3"
         }
       ],
       "position": {

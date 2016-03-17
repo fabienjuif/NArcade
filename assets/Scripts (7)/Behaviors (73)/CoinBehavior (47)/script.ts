@@ -7,9 +7,14 @@ class CoinBehavior extends Sup.Behavior {
   }
 
   update() {
-      if(Sup.ArcadePhysics2D.intersects(this.actor.arcadeBody2D,this.player.arcadeBody2D)){
-        this.actor.spriteRenderer.setOpacity(0);
-      }
+    // The coin is catched
+    if(Sup.ArcadePhysics2D.intersects(this.actor.arcadeBody2D, this.player.arcadeBody2D)){
+      // The coin is masked
+      this.actor.spriteRenderer.setOpacity(0);
+      
+      // The message is printed
+      this.actor.textRenderer.setText(messagesManager.getMessage(this.actor.getName()));
+    }
   }
 }
 Sup.registerBehavior(CoinBehavior);
