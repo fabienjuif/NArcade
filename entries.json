@@ -1,0 +1,289 @@
+[
+  {
+    "id": "7",
+    "name": "Scripts",
+    "type": null,
+    "children": [
+      {
+        "id": "13",
+        "name": "PlayerBehavior",
+        "type": "script"
+      },
+      {
+        "id": "42",
+        "name": "Exit",
+        "type": "script"
+      },
+      {
+        "id": "38",
+        "name": "LevelManager",
+        "type": "script"
+      },
+      {
+        "id": "45",
+        "name": "CameraFollow",
+        "type": "script"
+      },
+      {
+        "id": "47",
+        "name": "Coin",
+        "type": "script"
+      },
+      {
+        "id": "58",
+        "name": "MovingPlatform",
+        "type": "script"
+      },
+      {
+        "id": "37",
+        "name": "MainScript",
+        "type": "script"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Scenes",
+    "type": null,
+    "children": [
+      {
+        "id": "23",
+        "name": "TestScene",
+        "type": "scene"
+      },
+      {
+        "id": "46",
+        "name": "TestScene2",
+        "type": "scene"
+      },
+      {
+        "id": "65",
+        "name": "TestScene3",
+        "type": "scene"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Sprites",
+    "type": null,
+    "children": [
+      {
+        "id": "11",
+        "name": "TileSets",
+        "type": null,
+        "children": [
+          {
+            "id": "16",
+            "name": "Base",
+            "type": "tileSet"
+          },
+          {
+            "id": "49",
+            "name": "Items",
+            "type": "tileSet"
+          }
+        ]
+      },
+      {
+        "id": "12",
+        "name": "TileMaps",
+        "type": null,
+        "children": [
+          {
+            "id": "26",
+            "name": "Platforms",
+            "type": null,
+            "children": [
+              {
+                "id": "29",
+                "name": "Grass",
+                "type": null,
+                "children": [
+                  {
+                    "id": "30",
+                    "name": "GrassMiddle",
+                    "type": "tileMap"
+                  },
+                  {
+                    "id": "31",
+                    "name": "GrassLeft",
+                    "type": "tileMap"
+                  },
+                  {
+                    "id": "32",
+                    "name": "GrassRight",
+                    "type": "tileMap"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "27",
+            "name": "Grounds",
+            "type": null,
+            "children": [
+              {
+                "id": "28",
+                "name": "Grass",
+                "type": null,
+                "children": [
+                  {
+                    "id": "17",
+                    "name": "GrassMiddle",
+                    "type": "tileMap"
+                  },
+                  {
+                    "id": "18",
+                    "name": "GrassLeft",
+                    "type": "tileMap"
+                  },
+                  {
+                    "id": "19",
+                    "name": "GrassRight",
+                    "type": "tileMap"
+                  },
+                  {
+                    "id": "20",
+                    "name": "DustMiddle",
+                    "type": "tileMap"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "39",
+            "name": "Items",
+            "type": null,
+            "children": [
+              {
+                "id": "40",
+                "name": "Exit",
+                "type": "tileMap"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "14",
+        "name": "Player",
+        "type": "sprite"
+      },
+      {
+        "id": "36",
+        "name": "Background",
+        "type": "sprite"
+      },
+      {
+        "id": "52",
+        "name": "Items",
+        "type": null,
+        "children": [
+          {
+            "id": "53",
+            "name": "SlackCoin",
+            "type": "sprite"
+          },
+          {
+            "id": "54",
+            "name": "Coin",
+            "type": "sprite"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "name": "Prefabs",
+    "type": null,
+    "children": [
+      {
+        "id": "25",
+        "name": "Player",
+        "type": "scene"
+      },
+      {
+        "id": "33",
+        "name": "Grounds",
+        "type": null,
+        "children": [
+          {
+            "id": "22",
+            "name": "GrassColumn",
+            "type": "scene"
+          },
+          {
+            "id": "24",
+            "name": "GrassColumnX4",
+            "type": "scene"
+          }
+        ]
+      },
+      {
+        "id": "34",
+        "name": "Platforms",
+        "type": null,
+        "children": [
+          {
+            "id": "35",
+            "name": "PlatformX3",
+            "type": "scene"
+          },
+          {
+            "id": "59",
+            "name": "MovingPlatformX3",
+            "type": "scene"
+          }
+        ]
+      },
+      {
+        "id": "51",
+        "name": "Items",
+        "type": null,
+        "children": [
+          {
+            "id": "55",
+            "name": "Coin",
+            "type": "scene"
+          },
+          {
+            "id": "56",
+            "name": "SlackCoin",
+            "type": "scene"
+          }
+        ]
+      },
+      {
+        "id": "64",
+        "name": "Exit",
+        "type": null,
+        "children": [
+          {
+            "id": "63",
+            "name": "Exit+2",
+            "type": "scene"
+          },
+          {
+            "id": "41",
+            "name": "Exit",
+            "type": "scene"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "43",
+    "name": "Font",
+    "type": "font"
+  },
+  {
+    "id": "48",
+    "name": "Roboto",
+    "type": "font"
+  }
+]
