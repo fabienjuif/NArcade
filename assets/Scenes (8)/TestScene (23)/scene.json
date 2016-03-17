@@ -167,7 +167,7 @@
       "children": [],
       "components": [],
       "position": {
-        "x": -5.053135395050049,
+        "x": 4,
         "y": -5.025729656219482,
         "z": 0
       },
@@ -189,45 +189,17 @@
       }
     },
     {
-      "id": "24",
-      "name": "Platforms",
+      "id": "26",
+      "name": "StaticPlatforms",
       "children": [
         {
-          "id": "26",
-          "name": "Statics",
-          "children": [
-            {
-              "id": "13",
-              "name": "Platform1",
-              "children": [],
-              "components": [],
-              "position": {
-                "x": -6,
-                "y": -1,
-                "z": -15
-              },
-              "orientation": {
-                "x": 0,
-                "y": 0,
-                "z": 0,
-                "w": 1
-              },
-              "scale": {
-                "x": 1,
-                "y": 1,
-                "z": 1
-              },
-              "visible": true,
-              "layer": 0,
-              "prefab": {
-                "sceneAssetId": "35"
-              }
-            }
-          ],
+          "id": "13",
+          "name": "Platform1",
+          "children": [],
           "components": [],
           "position": {
-            "x": 0,
-            "y": 0,
+            "x": -8,
+            "y": -2,
             "z": 0
           },
           "orientation": {
@@ -243,67 +215,69 @@
           },
           "visible": true,
           "layer": 0,
-          "prefab": null
-        },
-        {
-          "id": "27",
-          "name": "Movable",
-          "children": [
-            {
-              "id": "22",
-              "name": "MovingPlatform",
-              "children": [],
-              "components": [],
-              "position": {
-                "x": 1,
-                "y": 0,
-                "z": -15
-              },
-              "orientation": {
-                "x": 0,
-                "y": 0,
-                "z": 0,
-                "w": 1
-              },
-              "scale": {
-                "x": 1,
-                "y": 1,
-                "z": 1
-              },
-              "visible": true,
-              "layer": 0,
-              "prefab": {
-                "sceneAssetId": "59"
-              }
-            }
-          ],
-          "components": [],
-          "position": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-          },
-          "orientation": {
-            "x": 0,
-            "y": 0,
-            "z": 0,
-            "w": 1
-          },
-          "scale": {
-            "x": 1,
-            "y": 1,
-            "z": 1
-          },
-          "visible": true,
-          "layer": 0,
-          "prefab": null
+          "prefab": {
+            "sceneAssetId": "35"
+          }
         }
       ],
       "components": [],
       "position": {
-        "x": -2,
-        "y": -1,
-        "z": 15
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "27",
+      "name": "MovingPlatforms",
+      "children": [
+        {
+          "id": "30",
+          "name": "MovingPlatform",
+          "children": [],
+          "components": [],
+          "position": {
+            "x": -3,
+            "y": 0,
+            "z": 1
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": {
+            "sceneAssetId": "69"
+          }
+        }
+      ],
+      "components": [],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 1
       },
       "orientation": {
         "x": 0,
@@ -493,7 +467,7 @@
           "components": [],
           "position": {
             "x": -9,
-            "y": 2,
+            "y": 3,
             "z": 1
           },
           "orientation": {
@@ -510,17 +484,17 @@
           "visible": true,
           "layer": 0,
           "prefab": {
-            "sceneAssetId": "22"
+            "sceneAssetId": "74"
           }
         },
         {
-          "id": "17",
-          "name": "Column2",
+          "id": "35",
+          "name": "DestroyableColumn",
           "children": [],
           "components": [],
           "position": {
             "x": -5,
-            "y": 2,
+            "y": 3,
             "z": 1
           },
           "orientation": {
@@ -537,7 +511,7 @@
           "visible": true,
           "layer": 0,
           "prefab": {
-            "sceneAssetId": "22"
+            "sceneAssetId": "80"
           }
         }
       ],
@@ -574,7 +548,7 @@
           "position": {
             "x": -3,
             "y": 3,
-            "z": -15
+            "z": 1
           },
           "orientation": {
             "x": 0,
@@ -598,7 +572,7 @@
       "position": {
         "x": -2,
         "y": -1,
-        "z": 15
+        "z": 0
       },
       "orientation": {
         "x": 0,
@@ -621,8 +595,8 @@
       "children": [],
       "components": [],
       "position": {
-        "x": -6,
-        "y": 2,
+        "x": -1,
+        "y": 2.7521188259124756,
         "z": 0
       },
       "orientation": {
@@ -640,6 +614,33 @@
       "layer": 0,
       "prefab": {
         "sceneAssetId": "25"
+      }
+    },
+    {
+      "id": "31",
+      "name": "Bot",
+      "children": [],
+      "components": [],
+      "position": {
+        "x": -2,
+        "y": -1.013,
+        "z": 1
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": {
+        "sceneAssetId": "67"
       }
     }
   ]
