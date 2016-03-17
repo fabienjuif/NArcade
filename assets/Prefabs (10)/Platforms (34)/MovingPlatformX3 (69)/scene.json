@@ -3,15 +3,28 @@
   "nodes": [
     {
       "id": "0",
-      "name": "GrassColumnX4",
+      "name": "PlatformX3",
       "children": [
         {
           "id": "1",
-          "name": "GrassColumn1",
+          "name": "Left",
           "children": [],
-          "components": [],
+          "components": [
+            {
+              "type": "TileMapRenderer",
+              "config": {
+                "tileMapAssetId": "31",
+                "tileSetAssetId": null,
+                "castShadow": false,
+                "receiveShadow": false,
+                "materialType": "basic",
+                "shaderAssetId": null
+              },
+              "id": "0"
+            }
+          ],
           "position": {
-            "x": 1,
+            "x": 0,
             "y": 0,
             "z": 0
           },
@@ -28,15 +41,26 @@
           },
           "visible": true,
           "layer": 0,
-          "prefab": {
-            "sceneAssetId": "22"
-          }
+          "prefab": null
         },
         {
           "id": "2",
-          "name": "GrassColumn2",
+          "name": "Middle",
           "children": [],
-          "components": [],
+          "components": [
+            {
+              "type": "TileMapRenderer",
+              "config": {
+                "tileMapAssetId": "30",
+                "tileSetAssetId": null,
+                "castShadow": false,
+                "receiveShadow": false,
+                "materialType": "basic",
+                "shaderAssetId": null
+              },
+              "id": "0"
+            }
+          ],
           "position": {
             "x": 2,
             "y": 0,
@@ -55,42 +79,26 @@
           },
           "visible": true,
           "layer": 0,
-          "prefab": {
-            "sceneAssetId": "22"
-          }
+          "prefab": null
         },
         {
           "id": "3",
-          "name": "GrassColumn3",
+          "name": "Right",
           "children": [],
-          "components": [],
-          "position": {
-            "x": 3,
-            "y": 0,
-            "z": 0
-          },
-          "orientation": {
-            "x": 0,
-            "y": 0,
-            "z": 0,
-            "w": 1
-          },
-          "scale": {
-            "x": 1,
-            "y": 1,
-            "z": 1
-          },
-          "visible": true,
-          "layer": 0,
-          "prefab": {
-            "sceneAssetId": "22"
-          }
-        },
-        {
-          "id": "4",
-          "name": "GrassColumn4",
-          "children": [],
-          "components": [],
+          "components": [
+            {
+              "type": "TileMapRenderer",
+              "config": {
+                "tileMapAssetId": "32",
+                "tileSetAssetId": null,
+                "castShadow": false,
+                "receiveShadow": false,
+                "materialType": "basic",
+                "shaderAssetId": null
+              },
+              "id": "0"
+            }
+          ],
           "position": {
             "x": 4,
             "y": 0,
@@ -109,9 +117,7 @@
           },
           "visible": true,
           "layer": 0,
-          "prefab": {
-            "sceneAssetId": "22"
-          }
+          "prefab": null
         }
       ],
       "components": [
@@ -119,12 +125,12 @@
           "type": "ArcadeBody2D",
           "config": {
             "type": "box",
-            "movable": false,
-            "width": 4,
-            "height": 3,
+            "movable": true,
+            "width": 3,
+            "height": 0.5,
             "offset": {
-              "x": 3,
-              "y": -0.5
+              "x": 1.5,
+              "y": 0.75
             },
             "tileMapAssetId": null,
             "tileSetPropertyName": null,
@@ -135,8 +141,21 @@
         {
           "type": "Behavior",
           "config": {
-            "behaviorName": "GroundBehavior",
-            "propertyValues": {}
+            "behaviorName": "MovingPlatformBehavior",
+            "propertyValues": {
+              "min": {
+                "type": "number",
+                "value": -1
+              },
+              "max": {
+                "type": "number",
+                "value": 1
+              },
+              "direction": {
+                "type": "boolean",
+                "value": false
+              }
+            }
           },
           "id": "1"
         }
@@ -144,7 +163,7 @@
       "position": {
         "x": 0,
         "y": 0,
-        "z": 0
+        "z": 1
       },
       "orientation": {
         "x": 0,
@@ -153,8 +172,8 @@
         "w": 1
       },
       "scale": {
-        "x": 1,
-        "y": 1,
+        "x": 0.5,
+        "y": 0.5,
         "z": 1
       },
       "visible": true,

@@ -21,23 +21,6 @@
                 "shaderAssetId": null
               },
               "id": "0"
-            },
-            {
-              "type": "ArcadeBody2D",
-              "config": {
-                "type": "box",
-                "movable": false,
-                "width": 1,
-                "height": 1,
-                "offset": {
-                  "x": 0.5,
-                  "y": 0.5
-                },
-                "tileMapAssetId": "17",
-                "tileSetPropertyName": null,
-                "layersIndex": "0"
-              },
-              "id": "1"
             }
           ],
           "position": {

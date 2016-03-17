@@ -137,6 +137,14 @@
             "layersIndex": null
           },
           "id": "0"
+        },
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "StaticBehavior",
+            "propertyValues": {}
+          },
+          "id": "1"
         }
       ],
       "position": {
