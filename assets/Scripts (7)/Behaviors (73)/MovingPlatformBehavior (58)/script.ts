@@ -6,8 +6,12 @@ class MovingPlatformBehavior extends Sup.Behavior {
   private orientation:boolean = true; // true vers la droite/vers le haut
   public speed:number = 0.03;
   
+  public getOrientation():boolean{
+    return this.orientation;
+  }
+
   awake() {
-    
+    groupManager.addInstance("movings",this.actor);
   }
 
   update() {
@@ -40,6 +44,10 @@ class MovingPlatformBehavior extends Sup.Behavior {
     
     
     this.actor.arcadeBody2D.setVelocity(velocity);
+  }
+
+  onDestroy(){
+    groupManager.removeInstance(this.actor);
   }
 }
 Sup.registerBehavior(MovingPlatformBehavior);
