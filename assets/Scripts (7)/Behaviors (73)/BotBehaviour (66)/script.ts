@@ -37,6 +37,20 @@ class BotBehaviour extends Sup.Behavior {
       destroyable.getBehavior(DestroyBehaviour).actionDestroy();
     }
   }
+
+  actionFix() {
+    let destroyables = groupManager.getActors("destroy");
+    
+    for (let destroyable of destroyables) {
+      destroyable.getBehavior(DestroyBehaviour).actionFix();
+    }
+  }
+
+  blame(){
+    ioConnection.emit("blame",{
+      slackName:messagesManager.getSlackName()
+    });
+  }
   
   awake() {
     this.message = this.actor.getChild("Message");
@@ -50,6 +64,9 @@ class BotBehaviour extends Sup.Behavior {
       switch(data.action) {
         case "destroy":
           this.actionDestroy();
+          break;
+        case "fix":
+          this.actionFix();
           break;
       }
     });
