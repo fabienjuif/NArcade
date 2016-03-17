@@ -5,34 +5,92 @@
     "type": null,
     "children": [
       {
-        "id": "13",
-        "name": "PlayerBehavior",
-        "type": "script"
+        "id": "72",
+        "name": "Managers",
+        "type": null,
+        "children": [
+          {
+            "id": "38",
+            "name": "LevelManager",
+            "type": "script"
+          },
+          {
+            "id": "71",
+            "name": "GroupsManager",
+            "type": "script"
+          }
+        ]
       },
       {
-        "id": "42",
-        "name": "Exit",
-        "type": "script"
+        "id": "81",
+        "name": "Helpers",
+        "type": null,
+        "children": [
+          {
+            "id": "82",
+            "name": "OpacityHelper",
+            "type": "script"
+          }
+        ]
       },
       {
-        "id": "38",
-        "name": "LevelManager",
-        "type": "script"
-      },
-      {
-        "id": "45",
-        "name": "CameraFollow",
-        "type": "script"
-      },
-      {
-        "id": "47",
-        "name": "Coin",
-        "type": "script"
-      },
-      {
-        "id": "58",
-        "name": "MovingPlatform",
-        "type": "script"
+        "id": "73",
+        "name": "Behaviors",
+        "type": null,
+        "children": [
+          {
+            "id": "75",
+            "name": "Actions",
+            "type": null,
+            "children": [
+              {
+                "id": "76",
+                "name": "DestroyBehaviour",
+                "type": "script"
+              }
+            ]
+          },
+          {
+            "id": "45",
+            "name": "CameraFollowBehavior",
+            "type": "script"
+          },
+          {
+            "id": "47",
+            "name": "CoinBehavior",
+            "type": "script"
+          },
+          {
+            "id": "58",
+            "name": "MovingPlatformBehavior",
+            "type": "script"
+          },
+          {
+            "id": "66",
+            "name": "BotBehaviour",
+            "type": "script"
+          },
+          {
+            "id": "13",
+            "name": "PlayerBehavior",
+            "type": "script"
+          },
+          {
+            "id": "42",
+            "name": "ExitBehavior",
+            "type": "script"
+          },
+          {
+            "id": "77",
+            "name": "GroundBehavior",
+            "type": "script"
+          },
+          {
+            "id": "79",
+            "name": "StaticBehavior",
+            "type": "script"
+          }
+        ]
       },
       {
         "id": "37",
@@ -217,6 +275,16 @@
             "type": "scene"
           },
           {
+            "id": "74",
+            "name": "GrassColumnX1",
+            "type": "scene"
+          },
+          {
+            "id": "80",
+            "name": "DestroyGrassColumnX1",
+            "type": "scene"
+          },
+          {
             "id": "24",
             "name": "GrassColumnX4",
             "type": "scene"
@@ -234,7 +302,7 @@
             "type": "scene"
           },
           {
-            "id": "59",
+            "id": "69",
             "name": "MovingPlatformX3",
             "type": "scene"
           }
@@ -273,6 +341,11 @@
             "type": "scene"
           }
         ]
+      },
+      {
+        "id": "67",
+        "name": "Bot",
+        "type": "scene"
       }
     ]
   },
