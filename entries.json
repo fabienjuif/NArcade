@@ -114,6 +114,11 @@
             "id": "93",
             "name": "DeathBehavior",
             "type": "script"
+          },
+          {
+            "id": "94",
+            "name": "BotPlatformBehavior",
+            "type": "script"
           }
         ]
       },
@@ -344,6 +349,11 @@
           {
             "id": "35",
             "name": "PlatformX3",
+            "type": "scene"
+          },
+          {
+            "id": "97",
+            "name": "BotPlatformX3",
             "type": "scene"
           },
           {

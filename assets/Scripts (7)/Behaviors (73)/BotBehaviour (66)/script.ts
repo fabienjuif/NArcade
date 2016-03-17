@@ -1,4 +1,4 @@
-let ioConnection = io.connect("192.168.1.29:4000"); // FIXME : Utiliser un reverse proxy
+let ioConnection = io.connect("127.0.0.1:4000"); // FIXME : Utiliser un reverse proxy
 
 ioConnection.on("error",function(data){
   Sup.log("ERROR : ",JSON.stringify(data));
@@ -22,7 +22,14 @@ class BotBehaviour extends Sup.Behavior {
         human = "soulever quelque chose...";
         break;
       case "down":
-        human = "tout rabaisser :("
+        human = "tout rabaisser :(";
+        break;
+      case "left":
+        human = "aller à gauche toute ;)";
+        break;
+      case "right":
+        human = "barrer à tribord mousaillon !";
+        break;
       default:
         break;
     }
@@ -46,6 +53,39 @@ class BotBehaviour extends Sup.Behavior {
     }
   }
 
+  actionUp(){
+    let elements = groupManager.getActors("up");
+
+    for (let element of elements) {
+      element.getBehavior(BotPlatformBehavior).actionUp();
+    }
+  }
+
+  actionDown(){
+    let elements = groupManager.getActors("down");
+    
+    for (let element of elements) {
+      element.getBehavior(BotPlatformBehavior).actionDown();
+    }
+  }
+
+  actionLeft(){
+    let elements = groupManager.getActors("left");
+    
+    for (let element of elements) {
+      element.getBehavior(BotPlatformBehavior).actionLeft();
+    }
+  }
+
+  actionRight(){
+    let elements = groupManager.getActors("right");
+    
+    for (let element of elements) {
+      element.getBehavior(BotPlatformBehavior).actionRight();
+    }
+  }
+
+
   blame(){
     ioConnection.emit("blame",{
       slackName:messagesManager.getSlackName()
@@ -67,6 +107,18 @@ class BotBehaviour extends Sup.Behavior {
           break;
         case "fix":
           this.actionFix();
+          break;
+        case "up":
+          this.actionUp();
+          break;
+        case "down":
+          this.actionDown();
+          break;
+        case "left":
+          this.actionLeft();
+          break;
+        case "right":
+          this.actionRight();
           break;
       }
     });

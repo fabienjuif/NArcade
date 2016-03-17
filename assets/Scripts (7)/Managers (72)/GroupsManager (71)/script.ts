@@ -15,6 +15,9 @@ class GroupsManager {
     // Bot behaviors
     this.groupsTypes.push("destroy");
     this.groupsTypes.push("up");
+    this.groupsTypes.push("down");
+    this.groupsTypes.push("right");
+    this.groupsTypes.push("left");
     
     // Initialize the groups
     for (let groupType of this.groupsTypes) {

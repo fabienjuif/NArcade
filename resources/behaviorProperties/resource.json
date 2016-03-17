@@ -102,6 +102,53 @@
       "line": 0,
       "parentBehavior": null,
       "properties": []
+    },
+    "BotPlatformBehavior": {
+      "scriptId": "94",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "direction",
+          "type": "boolean"
+        },
+        {
+          "name": "speed",
+          "type": "number"
+        },
+        {
+          "name": "xStart",
+          "type": "number"
+        },
+        {
+          "name": "xEnd",
+          "type": "number"
+        },
+        {
+          "name": "yStart",
+          "type": "number"
+        },
+        {
+          "name": "yEnd",
+          "type": "number"
+        },
+        {
+          "name": "upAble",
+          "type": "boolean"
+        },
+        {
+          "name": "downAble",
+          "type": "boolean"
+        },
+        {
+          "name": "leftAble",
+          "type": "boolean"
+        },
+        {
+          "name": "rightAble",
+          "type": "boolean"
+        }
+      ]
     }
   }
 }

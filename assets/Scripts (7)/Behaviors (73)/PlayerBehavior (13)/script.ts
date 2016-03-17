@@ -49,9 +49,10 @@ class PlayerBehavior extends Sup.Behavior {
     // Finally, we apply the velocity back to the ArcadePhysics body
     this.actor.arcadeBody2D.setVelocity(velocity);
     if(touchedMovingPlatforms != null){
-      if(touchedMovingPlatforms.actor.getBehavior(MovingPlatformBehavior).direction)
+      let behavior = (touchedMovingPlatforms.actor.getBehavior(MovingPlatformBehavior)) ? touchedMovingPlatforms.actor.getBehavior(MovingPlatformBehavior) : touchedMovingPlatforms.actor.getBehavior(BotPlatformBehavior) ;
+      if(behavior.direction)
         this.actor.arcadeBody2D.addVelocityX(touchedMovingPlatforms.getVelocity().x);
-      else if(!touchedMovingPlatforms.actor.getBehavior(MovingPlatformBehavior).direction && !touchedMovingPlatforms.actor.getBehavior(MovingPlatformBehavior).getOrientation()){
+      else if(!behavior.direction && !behavior.getOrientation()){
         this.actor.arcadeBody2D.warpPosition({
           x:this.actor.getPosition().x,
           y:touchedMovingPlatforms.getSize().height+1.21+touchedMovingPlatforms.actor.getPosition().y
