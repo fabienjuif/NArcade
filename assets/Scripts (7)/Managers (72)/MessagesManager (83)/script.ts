@@ -1,5 +1,6 @@
 /**
  * Message manager can handle message of coins, by players.
+ * It also handle tutorial messages.
  */
 class MessagesManager {
   private messages;
