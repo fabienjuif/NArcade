@@ -229,6 +229,11 @@
             "id": "49",
             "name": "Items",
             "type": "tileSet"
+          },
+          {
+            "id": "150",
+            "name": "Candy",
+            "type": "tileSet"
           }
         ]
       },
@@ -295,6 +300,38 @@
                     "id": "147",
                     "name": "LavaRight",
                     "type": "tileMap"
+                  },
+                  {
+                    "id": "148",
+                    "name": "LavaLeft",
+                    "type": "tileMap"
+                  },
+                  {
+                    "id": "149",
+                    "name": "LavaMiddle",
+                    "type": "tileMap"
+                  }
+                ]
+              },
+              {
+                "id": "151",
+                "name": "Candy",
+                "type": null,
+                "children": [
+                  {
+                    "id": "152",
+                    "name": "CandyRight",
+                    "type": "tileMap"
+                  },
+                  {
+                    "id": "153",
+                    "name": "CandyLeft",
+                    "type": "tileMap"
+                  },
+                  {
+                    "id": "154",
+                    "name": "CandyMiddle",
+                    "type": "tileMap"
                   }
                 ]
               }
@@ -355,6 +392,50 @@
                   {
                     "id": "104",
                     "name": "IceRock",
+                    "type": "tileMap"
+                  }
+                ]
+              },
+              {
+                "id": "155",
+                "name": "Lava",
+                "type": null,
+                "children": [
+                  {
+                    "id": "157",
+                    "name": "LavaMiddle",
+                    "type": "tileMap"
+                  },
+                  {
+                    "id": "158",
+                    "name": "LavaRock",
+                    "type": "tileMap"
+                  },
+                  {
+                    "id": "159",
+                    "name": "LavaRight",
+                    "type": "tileMap"
+                  },
+                  {
+                    "id": "160",
+                    "name": "LavaLeft",
+                    "type": "tileMap"
+                  }
+                ]
+              },
+              {
+                "id": "156",
+                "name": "Candy",
+                "type": null,
+                "children": [
+                  {
+                    "id": "161",
+                    "name": "CandyMiddle",
+                    "type": "tileMap"
+                  },
+                  {
+                    "id": "162",
+                    "name": "CandyRock",
                     "type": "tileMap"
                   }
                 ]
