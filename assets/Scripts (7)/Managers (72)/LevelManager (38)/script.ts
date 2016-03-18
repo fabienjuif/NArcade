@@ -2,11 +2,11 @@ class LevelManager {
   
   private currentLevel = 0;
   private levels:string[] = [
-    //"Scenes/PlayerChoice",
-    //"Scenes/SlackName",
+    "Scenes/PlayerChoice",
+    "Scenes/SlackName",
     //"Scenes/Presentation",
     "Scenes/Formation",
-    "Scenes/Experience",
+    //"Scenes/Experience",
     //"Scenes/Hobbies",
     //"Scenes/Score",
   ]

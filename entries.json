@@ -382,6 +382,28 @@
             "type": "sprite"
           }
         ]
+      },
+      {
+        "id": "122",
+        "name": "Decors",
+        "type": null,
+        "children": [
+          {
+            "id": "123",
+            "name": "Candy1",
+            "type": "sprite"
+          },
+          {
+            "id": "124",
+            "name": "Candy2",
+            "type": "sprite"
+          },
+          {
+            "id": "125",
+            "name": "Tree",
+            "type": "sprite"
+          }
+        ]
       }
     ]
   },
