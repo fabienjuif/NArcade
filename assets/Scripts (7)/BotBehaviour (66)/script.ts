@@ -96,9 +96,12 @@ class BotBehaviour extends Sup.Behavior {
     this.message = this.actor.getChild("Message");
     this.player = Sup.getActor("Player");
     
+    let message = this.message;
+    let mapActionHuman = this.mapActionHuman;
+    
     ioConnection.on("action", (data) => {
       // Print message
-      this.message.textRenderer.setText("@" + data.user + " a demandé de l'aide à @" + data.helpFrom + "\n pour " + this.mapActionHuman(data.action));
+      message.textRenderer.setText("@" + data.user + " a demandé de l'aide à @" + data.helpFrom + "\n pour " + mapActionHuman(data.action));
       
       // Do the action
       switch(data.action) {

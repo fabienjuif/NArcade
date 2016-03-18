@@ -3,13 +3,21 @@
   "nodes": [
     {
       "id": "0",
-      "name": "Coin",
+      "name": "Spikes",
       "children": [],
       "components": [
         {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "DeathBehavior",
+            "propertyValues": {}
+          },
+          "id": "1"
+        },
+        {
           "type": "SpriteRenderer",
           "config": {
-            "spriteAssetId": "54",
+            "spriteAssetId": "135",
             "animationId": null,
             "horizontalFlip": false,
             "verticalFlip": false,
@@ -21,61 +29,36 @@
             "materialType": "basic",
             "shaderAssetId": null
           },
-          "id": "0"
+          "id": "2"
         },
         {
           "type": "ArcadeBody2D",
           "config": {
             "type": "box",
-            "movable": false,
-            "width": 0.5,
+            "movable": true,
+            "width": 1,
             "height": 0.5,
             "offset": {
-              "x": 0,
-              "y": 0
+              "x": -0.5,
+              "y": -0.25
             },
             "tileMapAssetId": null,
             "tileSetPropertyName": null,
             "layersIndex": null
           },
-          "id": "1"
-        },
-        {
-          "type": "Behavior",
-          "config": {
-            "behaviorName": "CoinBehavior",
-            "propertyValues": {
-              "slack": {
-                "type": "boolean",
-                "value": false
-              }
-            }
-          },
-          "id": "2"
-        },
-        {
-          "type": "TextRenderer",
-          "config": {
-            "fontAssetId": "48",
-            "text": "",
-            "alignment": "center",
-            "size": 25,
-            "color": "4e33fd",
-            "verticalAlignment": "bottom"
-          },
           "id": "3"
         }
       ],
       "position": {
-        "x": 0,
-        "y": 0,
-        "z": 10
+        "x": 1.0275423526763916,
+        "y": 0.5084745287895203,
+        "z": 0
       },
       "orientation": {
         "x": 0,
         "y": 0,
-        "z": 0,
-        "w": 1
+        "z": 1,
+        "w": 6.123233995736766e-17
       },
       "scale": {
         "x": 1,

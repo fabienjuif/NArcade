@@ -11,7 +11,7 @@
           "config": {
             "mode": "orthographic",
             "fov": 45,
-            "orthographicScale": 10,
+            "orthographicScale": 18,
             "viewport": {
               "x": 0,
               "y": 0,
@@ -380,8 +380,8 @@
           "children": [],
           "components": [],
           "position": {
-            "x": 1.6101837158203125,
-            "y": 10.234463691711426,
+            "x": 0.04779815673828125,
+            "y": 9.160319328308105,
             "z": -15
           },
           "orientation": {
@@ -391,14 +391,14 @@
             "w": 1
           },
           "scale": {
-            "x": 2,
+            "x": 1,
             "y": 1,
             "z": 1
           },
           "visible": true,
           "layer": 0,
           "prefab": {
-            "sceneAssetId": "131"
+            "sceneAssetId": "139"
           }
         },
         {
@@ -488,8 +488,8 @@
           "children": [],
           "components": [],
           "position": {
-            "x": 40.098880767822266,
-            "y": 10.234463691711426,
+            "x": 38.49705505371094,
+            "y": 9.327718734741211,
             "z": -15
           },
           "orientation": {
@@ -499,14 +499,14 @@
             "w": 1
           },
           "scale": {
-            "x": 2,
+            "x": 1,
             "y": 1,
             "z": 1
           },
           "visible": true,
           "layer": 0,
           "prefab": {
-            "sceneAssetId": "131"
+            "sceneAssetId": "139"
           }
         }
       ],
@@ -1376,60 +1376,6 @@
                   "prefab": {
                     "sceneAssetId": "24"
                   }
-                },
-                {
-                  "id": "96",
-                  "name": "Left",
-                  "children": [],
-                  "components": [],
-                  "position": {
-                    "x": -17.533897399902344,
-                    "y": 4.435028314590454,
-                    "z": 0
-                  },
-                  "orientation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0,
-                    "w": 1
-                  },
-                  "scale": {
-                    "x": 1,
-                    "y": 1,
-                    "z": 1
-                  },
-                  "visible": true,
-                  "layer": 0,
-                  "prefab": {
-                    "sceneAssetId": "24"
-                  }
-                },
-                {
-                  "id": "97",
-                  "name": "Left",
-                  "children": [],
-                  "components": [],
-                  "position": {
-                    "x": -13.861579895019531,
-                    "y": 4.3644068241119385,
-                    "z": 0
-                  },
-                  "orientation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0,
-                    "w": 1
-                  },
-                  "scale": {
-                    "x": 1,
-                    "y": 1,
-                    "z": 1
-                  },
-                  "visible": true,
-                  "layer": 0,
-                  "prefab": {
-                    "sceneAssetId": "24"
-                  }
                 }
               ],
               "components": [],
@@ -1793,6 +1739,60 @@
       "prefab": null
     },
     {
+      "id": "58",
+      "name": "MovingPlatform1",
+      "children": [],
+      "components": [],
+      "position": {
+        "x": -97,
+        "y": -9,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": {
+        "sceneAssetId": "69"
+      }
+    },
+    {
+      "id": "82",
+      "name": "MovingPlatform2",
+      "children": [],
+      "components": [],
+      "position": {
+        "x": -88,
+        "y": -4,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": {
+        "sceneAssetId": "134"
+      }
+    },
+    {
       "id": "6",
       "name": "Platforms",
       "children": [
@@ -1878,7 +1878,7 @@
               "visible": true,
               "layer": 0,
               "prefab": {
-                "sceneAssetId": "35"
+                "sceneAssetId": "142"
               }
             }
           ],
@@ -1886,86 +1886,6 @@
           "position": {
             "x": 0,
             "y": 0,
-            "z": 0
-          },
-          "orientation": {
-            "x": 0,
-            "y": 0,
-            "z": 0,
-            "w": 1
-          },
-          "scale": {
-            "x": 1,
-            "y": 1,
-            "z": 1
-          },
-          "visible": true,
-          "layer": 0,
-          "prefab": null
-        },
-        {
-          "id": "57",
-          "name": "Movings",
-          "children": [
-            {
-              "id": "58",
-              "name": "MovingPlateform1",
-              "children": [],
-              "components": [],
-              "position": {
-                "x": -3.2485885620117188,
-                "y": 6.497175216674805,
-                "z": 0
-              },
-              "orientation": {
-                "x": 0,
-                "y": 0,
-                "z": 0,
-                "w": 1
-              },
-              "scale": {
-                "x": 1,
-                "y": 1,
-                "z": 1
-              },
-              "visible": true,
-              "layer": 0,
-              "prefab": {
-                "sceneAssetId": "69"
-              }
-            },
-            {
-              "id": "82",
-              "name": "MovingPlateform2",
-              "children": [],
-              "components": [],
-              "position": {
-                "x": 5.79095458984375,
-                "y": 11.158191204071045,
-                "z": 0
-              },
-              "orientation": {
-                "x": 0,
-                "y": 0,
-                "z": 0,
-                "w": 1
-              },
-              "scale": {
-                "x": 1,
-                "y": 1,
-                "z": 1
-              },
-              "visible": true,
-              "layer": 0,
-              "prefab": {
-                "sceneAssetId": "134"
-              }
-            }
-          ],
-          "components": [],
-          "position": {
-            "x": -94.086,
-            "y": -14.655,
             "z": 0
           },
           "orientation": {
@@ -2021,7 +1941,7 @@
               "position": {
                 "x": 6,
                 "y": 0,
-                "z": 0
+                "z": -1
               },
               "orientation": {
                 "x": 0,
@@ -2075,7 +1995,7 @@
               "position": {
                 "x": 12,
                 "y": 4,
-                "z": 0
+                "z": -1
               },
               "orientation": {
                 "x": 0,
@@ -2102,7 +2022,7 @@
               "position": {
                 "x": 12,
                 "y": 0,
-                "z": 0
+                "z": -2
               },
               "orientation": {
                 "x": 0,
@@ -2486,7 +2406,16 @@
       "id": "13",
       "name": "SceneInit",
       "children": [],
-      "components": [],
+      "components": [
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "PresentationBehavior",
+            "propertyValues": {}
+          },
+          "id": "0"
+        }
+      ],
       "position": {
         "x": 0,
         "y": 0,
