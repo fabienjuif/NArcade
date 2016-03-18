@@ -38,7 +38,7 @@ class MessagesManager {
         "hobb_1": "De nature curieuses, je m'intérresse à beaucoup de choses. C'est pourquoi mes passions sont variées. Passionné de musique, je pratique la basse.",
         "hobb_2": "Créatif, j'ai beaucoup fait d'art plastique étant plus jeune. Mais j'ai eu depuis moins le temps de m'y consacré.",
         "hobb_3": "Pendant longtemps j'ai beaucoup pratiqué les jeux videos, mais depuis je suis devenu plus raisonnable.",
-        "hobb_4": "Comme vous pouvez le constater, j'ai reporté",
+        "hobb_4": "Comme vous pouvez le constater, j'ai reporté mon côté créatif sur d'autres supports plus numérique. Mais je jardine aussi à mes heures perdus ( sur mon balcon :( )).",
       },
       "fabien.juif": {
         "pres_1": "Salut toi, je suis Fabien !\n27 ans, j'aime les pizzas.",
