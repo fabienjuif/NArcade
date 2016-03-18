@@ -14,7 +14,7 @@ class PlayerManager {
   update() {
     let player = Sup.getActor("Player");
     
-    player.spriteRenderer.setSprite("Sprites/" + this.playerName);
+    player.spriteRenderer.setSprite("Sprites/Players/" + this.playerName);
     
     if ("Player" !== this.playerName) {
       player.getChild("Name").textRenderer.setText(this.playerName);  
