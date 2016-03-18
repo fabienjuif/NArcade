@@ -28,6 +28,11 @@
             "id": "89",
             "name": "PlayerManager",
             "type": "script"
+          },
+          {
+            "id": "122",
+            "name": "ScoreManager",
+            "type": "script"
           }
         ]
       },
@@ -49,6 +54,28 @@
         "type": null,
         "children": [
           {
+            "id": "126",
+            "name": "Followers",
+            "type": null,
+            "children": [
+              {
+                "id": "45",
+                "name": "CameraFollowBehavior",
+                "type": "script"
+              },
+              {
+                "id": "66",
+                "name": "BotBehaviour",
+                "type": "script"
+              },
+              {
+                "id": "127",
+                "name": "ScoreBehavior",
+                "type": "script"
+              }
+            ]
+          },
+          {
             "id": "75",
             "name": "Actions",
             "type": null,
@@ -61,11 +88,6 @@
             ]
           },
           {
-            "id": "45",
-            "name": "CameraFollowBehavior",
-            "type": "script"
-          },
-          {
             "id": "47",
             "name": "CoinBehavior",
             "type": "script"
@@ -73,11 +95,6 @@
           {
             "id": "58",
             "name": "MovingPlatformBehavior",
-            "type": "script"
-          },
-          {
-            "id": "66",
-            "name": "BotBehaviour",
             "type": "script"
           },
           {
@@ -174,6 +191,16 @@
       {
         "id": "98",
         "name": "Formation",
+        "type": "scene"
+      },
+      {
+        "id": "125",
+        "name": "Presentation",
+        "type": "scene"
+      },
+      {
+        "id": "128",
+        "name": "Tutorial",
         "type": "scene"
       }
     ]
@@ -382,28 +409,6 @@
             "type": "sprite"
           }
         ]
-      },
-      {
-        "id": "122",
-        "name": "Decors",
-        "type": null,
-        "children": [
-          {
-            "id": "123",
-            "name": "Candy1",
-            "type": "sprite"
-          },
-          {
-            "id": "124",
-            "name": "Candy2",
-            "type": "sprite"
-          },
-          {
-            "id": "125",
-            "name": "Tree",
-            "type": "sprite"
-          }
-        ]
       }
     ]
   },
@@ -548,6 +553,11 @@
       {
         "id": "119",
         "name": "Water",
+        "type": "scene"
+      },
+      {
+        "id": "124",
+        "name": "Score",
         "type": "scene"
       }
     ]

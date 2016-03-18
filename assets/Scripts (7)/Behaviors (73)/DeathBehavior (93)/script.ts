@@ -9,6 +9,7 @@ class DeathBehavior extends Sup.Behavior {
   update() {
     if(Sup.ArcadePhysics2D.intersects(this.actor.arcadeBody2D, this.player.arcadeBody2D)){
       Sup.getActor("Bot").getBehavior(BotBehaviour).blame();
+      scoreManager.death();
       levelManager.reload();
     }
   }

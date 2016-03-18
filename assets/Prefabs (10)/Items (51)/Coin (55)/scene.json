@@ -44,7 +44,12 @@
           "type": "Behavior",
           "config": {
             "behaviorName": "CoinBehavior",
-            "propertyValues": {}
+            "propertyValues": {
+              "slack": {
+                "type": "boolean",
+                "value": false
+              }
+            }
           },
           "id": "2"
         },
@@ -53,8 +58,8 @@
           "config": {
             "fontAssetId": "48",
             "text": "",
-            "alignment": "left",
-            "size": 32,
+            "alignment": "center",
+            "size": 25,
             "color": "4e33fd",
             "verticalAlignment": "bottom"
           },

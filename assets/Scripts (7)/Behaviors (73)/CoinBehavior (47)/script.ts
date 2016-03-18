@@ -1,6 +1,7 @@
 class CoinBehavior extends Sup.Behavior {
   private player:Sup.Actor;
   private catched:boolean;
+  public slack:boolean;
 
   awake() {
     this.player = Sup.getActor("Player");
@@ -19,6 +20,9 @@ class CoinBehavior extends Sup.Behavior {
       
     // The message is printed
     this.actor.textRenderer.setText(messagesManager.getMessage(this.actor.getName()));
+    
+    // The score is added
+    scoreManager.addScore(this.slack);
   }
 
   update() {

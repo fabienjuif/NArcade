@@ -4,7 +4,8 @@ class LevelManager {
   private levels:string[] = [
     "Scenes/PlayerChoice",
     "Scenes/SlackName",
-    //"Scenes/Presentation",
+    "Scenes/Tutorial",
+    "Scenes/Presentation",
     "Scenes/Formation",
     //"Scenes/Experience",
     //"Scenes/Hobbies",
@@ -48,5 +49,6 @@ class LevelManager {
 
   private loadCurrentScene(){
     Sup.loadScene(this.getLevel(this.currentLevel));
+    scoreManager.print();
   }
 }
