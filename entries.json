@@ -123,6 +123,18 @@
         ]
       },
       {
+        "id": "120",
+        "name": "Scenes",
+        "type": null,
+        "children": [
+          {
+            "id": "121",
+            "name": "Formation",
+            "type": "script"
+          }
+        ]
+      },
+      {
         "id": "37",
         "name": "MainScript",
         "type": "script"
@@ -157,6 +169,11 @@
       {
         "id": "90",
         "name": "SlackName",
+        "type": "scene"
+      },
+      {
+        "id": "98",
+        "name": "Formation",
         "type": "scene"
       }
     ]
@@ -214,6 +231,28 @@
                     "type": "tileMap"
                   }
                 ]
+              },
+              {
+                "id": "113",
+                "name": "Ice",
+                "type": null,
+                "children": [
+                  {
+                    "id": "112",
+                    "name": "IceRight",
+                    "type": "tileMap"
+                  },
+                  {
+                    "id": "111",
+                    "name": "IceLeft",
+                    "type": "tileMap"
+                  },
+                  {
+                    "id": "110",
+                    "name": "IceMiddle",
+                    "type": "tileMap"
+                  }
+                ]
               }
             ]
           },
@@ -248,6 +287,33 @@
                     "type": "tileMap"
                   }
                 ]
+              },
+              {
+                "id": "100",
+                "name": "Ice",
+                "type": null,
+                "children": [
+                  {
+                    "id": "101",
+                    "name": "IceMiddle",
+                    "type": "tileMap"
+                  },
+                  {
+                    "id": "102",
+                    "name": "IceLeft",
+                    "type": "tileMap"
+                  },
+                  {
+                    "id": "103",
+                    "name": "IceRight",
+                    "type": "tileMap"
+                  },
+                  {
+                    "id": "104",
+                    "name": "IceRock",
+                    "type": "tileMap"
+                  }
+                ]
               }
             ]
           },
@@ -262,6 +328,16 @@
                 "type": "tileMap"
               }
             ]
+          },
+          {
+            "id": "117",
+            "name": "Water",
+            "type": "tileMap"
+          },
+          {
+            "id": "118",
+            "name": "TopWater",
+            "type": "tileMap"
           }
         ]
       },
@@ -283,6 +359,11 @@
       {
         "id": "36",
         "name": "Background",
+        "type": "sprite"
+      },
+      {
+        "id": "99",
+        "name": "IcyBackground",
         "type": "sprite"
       },
       {
@@ -325,8 +406,18 @@
             "type": "scene"
           },
           {
+            "id": "105",
+            "name": "IceColumn",
+            "type": "scene"
+          },
+          {
             "id": "74",
             "name": "GrassColumnX1",
+            "type": "scene"
+          },
+          {
+            "id": "106",
+            "name": "IceColumnX1",
             "type": "scene"
           },
           {
@@ -335,8 +426,18 @@
             "type": "scene"
           },
           {
+            "id": "107",
+            "name": "DestroyIceColumnX1",
+            "type": "scene"
+          },
+          {
             "id": "24",
             "name": "GrassColumnX4",
+            "type": "scene"
+          },
+          {
+            "id": "108",
+            "name": "IceColumnX4",
             "type": "scene"
           }
         ]
@@ -352,13 +453,28 @@
             "type": "scene"
           },
           {
+            "id": "114",
+            "name": "IcePlatformX3",
+            "type": "scene"
+          },
+          {
             "id": "97",
             "name": "BotPlatformX3",
             "type": "scene"
           },
           {
+            "id": "115",
+            "name": "IceBotPlatformX3",
+            "type": "scene"
+          },
+          {
             "id": "69",
             "name": "MovingPlatformX3",
+            "type": "scene"
+          },
+          {
+            "id": "116",
+            "name": "IceMovingPlatformX3",
             "type": "scene"
           }
         ]
@@ -405,6 +521,11 @@
       {
         "id": "92",
         "name": "DeathZone",
+        "type": "scene"
+      },
+      {
+        "id": "119",
+        "name": "Water",
         "type": "scene"
       }
     ]

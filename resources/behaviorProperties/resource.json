@@ -149,6 +149,12 @@
           "type": "boolean"
         }
       ]
+    },
+    "FormationBehavior": {
+      "scriptId": "121",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
     }
   }
 }

@@ -54,7 +54,7 @@
             "fontAssetId": "48",
             "text": "",
             "alignment": "left",
-            "size": null,
+            "size": 32,
             "color": "4e33fd",
             "verticalAlignment": "bottom"
           },

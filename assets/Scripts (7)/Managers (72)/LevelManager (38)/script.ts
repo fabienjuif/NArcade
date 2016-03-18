@@ -2,11 +2,13 @@ class LevelManager {
   
   private currentLevel = 0;
   private levels:string[] = [
-    "Scenes/PlayerChoice",
-    "Scenes/SlackName",
-    "Scenes/TestScene",
-    "Scenes/TestScene2",
-    "Scenes/TestScene3"
+    //"Scenes/PlayerChoice",
+    //"Scenes/SlackName",
+    //"Scenes/Presentation",
+    "Scenes/Formation",
+    "Scenes/Experience",
+    //"Scenes/Hobbies",
+    //"Scenes/Score",
   ]
   
   public getCurrentLevel(){
@@ -45,7 +47,6 @@ class LevelManager {
   }
 
   private loadCurrentScene(){
-    Sup.log("currentLevel : ",this.getLevel(this.currentLevel));
     Sup.loadScene(this.getLevel(this.currentLevel));
   }
 }
