@@ -164,11 +164,6 @@
     "type": null,
     "children": [
       {
-        "id": "86",
-        "name": "PlayerChoice",
-        "type": "scene"
-      },
-      {
         "id": "23",
         "name": "TestScene",
         "type": "scene"
@@ -184,23 +179,28 @@
         "type": "scene"
       },
       {
+        "id": "86",
+        "name": "PlayerChoice",
+        "type": "scene"
+      },
+      {
         "id": "90",
         "name": "SlackName",
         "type": "scene"
       },
       {
-        "id": "98",
-        "name": "Formation",
+        "id": "128",
+        "name": "Tutorial",
         "type": "scene"
       },
       {
-        "id": "125",
+        "id": "129",
         "name": "Presentation",
         "type": "scene"
       },
       {
-        "id": "128",
-        "name": "Tutorial",
+        "id": "98",
+        "name": "Formation",
         "type": "scene"
       }
     ]
@@ -500,6 +500,11 @@
             "type": "scene"
           },
           {
+            "id": "134",
+            "name": "MovingPlatformX3Horizontal",
+            "type": "scene"
+          },
+          {
             "id": "116",
             "name": "IceMovingPlatformX3",
             "type": "scene"
@@ -548,6 +553,16 @@
       {
         "id": "92",
         "name": "DeathZone",
+        "type": "scene"
+      },
+      {
+        "id": "131",
+        "name": "LittleDeathZone",
+        "type": "scene"
+      },
+      {
+        "id": "132",
+        "name": "MediumDeathZone",
         "type": "scene"
       },
       {

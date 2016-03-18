@@ -4,7 +4,7 @@ class LevelManager {
   private levels:string[] = [
     "Scenes/PlayerChoice",
     "Scenes/SlackName",
-    "Scenes/Tutorial",
+    // "Scenes/Tutorial",
     "Scenes/Presentation",
     "Scenes/Formation",
     //"Scenes/Experience",

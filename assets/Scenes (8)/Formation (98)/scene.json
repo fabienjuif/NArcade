@@ -3811,7 +3811,7 @@
       "components": [],
       "position": {
         "x": -29,
-        "y": -28,
+        "y": -26,
         "z": -10
       },
       "orientation": {
@@ -4303,7 +4303,7 @@
             {
               "type": "SpriteRenderer",
               "config": {
-                "spriteAssetId": "124",
+                "spriteAssetId": null,
                 "animationId": null,
                 "horizontalFlip": false,
                 "verticalFlip": false,
@@ -4346,7 +4346,7 @@
             {
               "type": "SpriteRenderer",
               "config": {
-                "spriteAssetId": "124",
+                "spriteAssetId": null,
                 "animationId": null,
                 "horizontalFlip": false,
                 "verticalFlip": false,
