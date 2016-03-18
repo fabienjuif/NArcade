@@ -437,6 +437,16 @@
                     "id": "162",
                     "name": "CandyRock",
                     "type": "tileMap"
+                  },
+                  {
+                    "id": "163",
+                    "name": "CandyRight",
+                    "type": "tileMap"
+                  },
+                  {
+                    "id": "164",
+                    "name": "CandyLeft",
+                    "type": "tileMap"
                   }
                 ]
               }
@@ -455,41 +465,43 @@
             ]
           },
           {
-            "id": "117",
-            "name": "Water",
-            "type": "tileMap"
-          },
-          {
-            "id": "118",
-            "name": "TopWater",
-            "type": "tileMap"
+            "id": "165",
+            "name": "Waters",
+            "type": null,
+            "children": [
+              {
+                "id": "117",
+                "name": "Water",
+                "type": "tileMap"
+              },
+              {
+                "id": "168",
+                "name": "Lava",
+                "type": "tileMap"
+              },
+              {
+                "id": "118",
+                "name": "TopWater",
+                "type": "tileMap"
+              },
+              {
+                "id": "169",
+                "name": "TopLava",
+                "type": "tileMap"
+              },
+              {
+                "id": "166",
+                "name": "Poison",
+                "type": "sprite"
+              },
+              {
+                "id": "167",
+                "name": "TopPoison",
+                "type": "sprite"
+              }
+            ]
           }
         ]
-      },
-      {
-        "id": "14",
-        "name": "Player",
-        "type": "sprite"
-      },
-      {
-        "id": "87",
-        "name": "yvonnick",
-        "type": "sprite"
-      },
-      {
-        "id": "85",
-        "name": "fabien.juif",
-        "type": "sprite"
-      },
-      {
-        "id": "36",
-        "name": "Background",
-        "type": "sprite"
-      },
-      {
-        "id": "99",
-        "name": "IcyBackground",
-        "type": "sprite"
       },
       {
         "id": "52",
@@ -517,6 +529,45 @@
         "id": "143",
         "name": "BrokenGrassPlatform",
         "type": "sprite"
+      },
+      {
+        "id": "190",
+        "name": "Backgrounds",
+        "type": null,
+        "children": [
+          {
+            "id": "36",
+            "name": "Background",
+            "type": "sprite"
+          },
+          {
+            "id": "99",
+            "name": "IcyBackground",
+            "type": "sprite"
+          }
+        ]
+      },
+      {
+        "id": "191",
+        "name": "Players",
+        "type": null,
+        "children": [
+          {
+            "id": "14",
+            "name": "Player",
+            "type": "sprite"
+          },
+          {
+            "id": "87",
+            "name": "yvonnick",
+            "type": "sprite"
+          },
+          {
+            "id": "85",
+            "name": "fabien.juif",
+            "type": "sprite"
+          }
+        ]
       }
     ]
   },
@@ -546,6 +597,16 @@
             "type": "scene"
           },
           {
+            "id": "170",
+            "name": "LavaColumn",
+            "type": "scene"
+          },
+          {
+            "id": "174",
+            "name": "CandyColumn",
+            "type": "scene"
+          },
+          {
             "id": "74",
             "name": "GrassColumnX1",
             "type": "scene"
@@ -553,6 +614,16 @@
           {
             "id": "106",
             "name": "IceColumnX1",
+            "type": "scene"
+          },
+          {
+            "id": "171",
+            "name": "LavaColumnX1",
+            "type": "scene"
+          },
+          {
+            "id": "175",
+            "name": "CandyColumnX1",
             "type": "scene"
           },
           {
@@ -566,6 +637,16 @@
             "type": "scene"
           },
           {
+            "id": "172",
+            "name": "DestroyLavaColumnX1",
+            "type": "scene"
+          },
+          {
+            "id": "176",
+            "name": "DestroyCandyColumnX1",
+            "type": "scene"
+          },
+          {
             "id": "24",
             "name": "GrassColumnX4",
             "type": "scene"
@@ -573,6 +654,16 @@
           {
             "id": "108",
             "name": "IceColumnX4",
+            "type": "scene"
+          },
+          {
+            "id": "173",
+            "name": "LavaColumnX4",
+            "type": "scene"
+          },
+          {
+            "id": "177",
+            "name": "CandyColumnX4",
             "type": "scene"
           }
         ]
@@ -593,8 +684,33 @@
             "type": "scene"
           },
           {
+            "id": "178",
+            "name": "DestroyIcePlatformX3",
+            "type": "scene"
+          },
+          {
+            "id": "180",
+            "name": "DestroyLavaPlatformX3",
+            "type": "scene"
+          },
+          {
+            "id": "184",
+            "name": "DestroyCandyPlatformX3",
+            "type": "scene"
+          },
+          {
             "id": "114",
             "name": "IcePlatformX3",
+            "type": "scene"
+          },
+          {
+            "id": "179",
+            "name": "LavaPlatformX3",
+            "type": "scene"
+          },
+          {
+            "id": "183",
+            "name": "CandyPlatformX3",
             "type": "scene"
           },
           {
@@ -605,6 +721,16 @@
           {
             "id": "115",
             "name": "IceBotPlatformX3",
+            "type": "scene"
+          },
+          {
+            "id": "181",
+            "name": "LavaBotPlatformX3",
+            "type": "scene"
+          },
+          {
+            "id": "185",
+            "name": "CandyBotPlatformX3",
             "type": "scene"
           },
           {
@@ -620,6 +746,16 @@
           {
             "id": "116",
             "name": "IceMovingPlatformX3",
+            "type": "scene"
+          },
+          {
+            "id": "182",
+            "name": "LavaMovingPlatformX3",
+            "type": "scene"
+          },
+          {
+            "id": "186",
+            "name": "CandyMovingPlatformX3",
             "type": "scene"
           },
           {
@@ -691,34 +827,55 @@
         ]
       },
       {
-        "id": "67",
-        "name": "Bot",
-        "type": "scene"
+        "id": "187",
+        "name": "DeathZones",
+        "type": null,
+        "children": [
+          {
+            "id": "92",
+            "name": "DeathZone",
+            "type": "scene"
+          },
+          {
+            "id": "131",
+            "name": "LittleDeathZone",
+            "type": "scene"
+          },
+          {
+            "id": "132",
+            "name": "MediumDeathZone",
+            "type": "scene"
+          }
+        ]
       },
       {
-        "id": "92",
-        "name": "DeathZone",
-        "type": "scene"
+        "id": "188",
+        "name": "Waters",
+        "type": null,
+        "children": [
+          {
+            "id": "119",
+            "name": "Water",
+            "type": "scene"
+          }
+        ]
       },
       {
-        "id": "131",
-        "name": "LittleDeathZone",
-        "type": "scene"
-      },
-      {
-        "id": "132",
-        "name": "MediumDeathZone",
-        "type": "scene"
-      },
-      {
-        "id": "119",
-        "name": "Water",
-        "type": "scene"
-      },
-      {
-        "id": "124",
-        "name": "Score",
-        "type": "scene"
+        "id": "189",
+        "name": "UI",
+        "type": null,
+        "children": [
+          {
+            "id": "67",
+            "name": "Bot",
+            "type": "scene"
+          },
+          {
+            "id": "124",
+            "name": "Score",
+            "type": "scene"
+          }
+        ]
       }
     ]
   },
