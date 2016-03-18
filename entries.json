@@ -64,11 +64,6 @@
                 "type": "script"
               },
               {
-                "id": "66",
-                "name": "BotBehaviour",
-                "type": "script"
-              },
-              {
                 "id": "127",
                 "name": "ScoreBehavior",
                 "type": "script"
@@ -140,10 +135,20 @@
         ]
       },
       {
+        "id": "66",
+        "name": "BotBehaviour",
+        "type": "script"
+      },
+      {
         "id": "120",
         "name": "Scenes",
         "type": null,
         "children": [
+          {
+            "id": "141",
+            "name": "Presentation",
+            "type": "script"
+          },
           {
             "id": "121",
             "name": "Formation",
@@ -407,8 +412,18 @@
             "id": "54",
             "name": "Coin",
             "type": "sprite"
+          },
+          {
+            "id": "135",
+            "name": "Spikes",
+            "type": "sprite"
           }
         ]
+      },
+      {
+        "id": "143",
+        "name": "BrokenGrassPlatform",
+        "type": "sprite"
       }
     ]
   },
@@ -480,6 +495,11 @@
             "type": "scene"
           },
           {
+            "id": "142",
+            "name": "DestroyPlatformX3",
+            "type": "scene"
+          },
+          {
             "id": "114",
             "name": "IcePlatformX3",
             "type": "scene"
@@ -508,6 +528,11 @@
             "id": "116",
             "name": "IceMovingPlatformX3",
             "type": "scene"
+          },
+          {
+            "id": "144",
+            "name": "BrokenGrassPlatformX3",
+            "type": "scene"
           }
         ]
       },
@@ -525,6 +550,33 @@
             "id": "56",
             "name": "SlackCoin",
             "type": "scene"
+          },
+          {
+            "id": "137",
+            "name": "Spikes",
+            "type": null,
+            "children": [
+              {
+                "id": "136",
+                "name": "SpikesTop",
+                "type": "scene"
+              },
+              {
+                "id": "138",
+                "name": "SpikesBot",
+                "type": "scene"
+              },
+              {
+                "id": "139",
+                "name": "SpikesLeft",
+                "type": "scene"
+              },
+              {
+                "id": "140",
+                "name": "SpikesRight",
+                "type": "scene"
+              }
+            ]
           }
         ]
       },

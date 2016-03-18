@@ -68,7 +68,7 @@
     },
     "BotBehaviour": {
       "scriptId": "66",
-      "line": 6,
+      "line": 15,
       "parentBehavior": null,
       "properties": []
     },
@@ -163,6 +163,12 @@
     },
     "ScoreBehavior": {
       "scriptId": "127",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "PresentationBehavior": {
+      "scriptId": "141",
       "line": 0,
       "parentBehavior": null,
       "properties": []

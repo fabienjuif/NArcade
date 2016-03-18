@@ -8,7 +8,7 @@
   "pixelsPerUnit": 32,
   "framesPerSecond": 10,
   "opacity": null,
-  "alphaTest": 0.1,
+  "alphaTest": 0.9,
   "frameOrder": "rows",
   "grid": {
     "width": 76,

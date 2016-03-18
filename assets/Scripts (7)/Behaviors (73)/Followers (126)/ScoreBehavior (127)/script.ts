@@ -7,8 +7,8 @@ class ScoreBehavior extends Sup.Behavior {
 
   update() {
     this.actor.setPosition({
-      x: this.player.getPosition().x - 8,
-      y: this.player.getPosition().y + 7.5,
+      x: this.player.getPosition().x - 12,
+      y: this.player.getPosition().y + 10,
       z: this.actor.getPosition().z
     });
   }
