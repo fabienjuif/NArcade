@@ -285,6 +285,18 @@
                     "type": "tileMap"
                   }
                 ]
+              },
+              {
+                "id": "146",
+                "name": "Lava",
+                "type": null,
+                "children": [
+                  {
+                    "id": "147",
+                    "name": "LavaRight",
+                    "type": "tileMap"
+                  }
+                ]
               }
             ]
           },
