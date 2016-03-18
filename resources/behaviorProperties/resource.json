@@ -36,7 +36,12 @@
       "scriptId": "47",
       "line": 0,
       "parentBehavior": null,
-      "properties": []
+      "properties": [
+        {
+          "name": "slack",
+          "type": "boolean"
+        }
+      ]
     },
     "MovingPlatformBehavior": {
       "scriptId": "58",
@@ -152,6 +157,12 @@
     },
     "FormationBehavior": {
       "scriptId": "121",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "ScoreBehavior": {
+      "scriptId": "127",
       "line": 0,
       "parentBehavior": null,
       "properties": []

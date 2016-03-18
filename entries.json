@@ -28,6 +28,11 @@
             "id": "89",
             "name": "PlayerManager",
             "type": "script"
+          },
+          {
+            "id": "122",
+            "name": "ScoreManager",
+            "type": "script"
           }
         ]
       },
@@ -49,6 +54,28 @@
         "type": null,
         "children": [
           {
+            "id": "126",
+            "name": "Followers",
+            "type": null,
+            "children": [
+              {
+                "id": "45",
+                "name": "CameraFollowBehavior",
+                "type": "script"
+              },
+              {
+                "id": "66",
+                "name": "BotBehaviour",
+                "type": "script"
+              },
+              {
+                "id": "127",
+                "name": "ScoreBehavior",
+                "type": "script"
+              }
+            ]
+          },
+          {
             "id": "75",
             "name": "Actions",
             "type": null,
@@ -61,11 +88,6 @@
             ]
           },
           {
-            "id": "45",
-            "name": "CameraFollowBehavior",
-            "type": "script"
-          },
-          {
             "id": "47",
             "name": "CoinBehavior",
             "type": "script"
@@ -73,11 +95,6 @@
           {
             "id": "58",
             "name": "MovingPlatformBehavior",
-            "type": "script"
-          },
-          {
-            "id": "66",
-            "name": "BotBehaviour",
             "type": "script"
           },
           {
@@ -147,11 +164,6 @@
     "type": null,
     "children": [
       {
-        "id": "86",
-        "name": "PlayerChoice",
-        "type": "scene"
-      },
-      {
         "id": "23",
         "name": "TestScene",
         "type": "scene"
@@ -167,8 +179,23 @@
         "type": "scene"
       },
       {
+        "id": "86",
+        "name": "PlayerChoice",
+        "type": "scene"
+      },
+      {
         "id": "90",
         "name": "SlackName",
+        "type": "scene"
+      },
+      {
+        "id": "128",
+        "name": "Tutorial",
+        "type": "scene"
+      },
+      {
+        "id": "129",
+        "name": "Presentation",
         "type": "scene"
       },
       {
@@ -382,28 +409,6 @@
             "type": "sprite"
           }
         ]
-      },
-      {
-        "id": "122",
-        "name": "Decors",
-        "type": null,
-        "children": [
-          {
-            "id": "123",
-            "name": "Candy1",
-            "type": "sprite"
-          },
-          {
-            "id": "124",
-            "name": "Candy2",
-            "type": "sprite"
-          },
-          {
-            "id": "125",
-            "name": "Tree",
-            "type": "sprite"
-          }
-        ]
       }
     ]
   },
@@ -495,6 +500,11 @@
             "type": "scene"
           },
           {
+            "id": "134",
+            "name": "MovingPlatformX3Horizontal",
+            "type": "scene"
+          },
+          {
             "id": "116",
             "name": "IceMovingPlatformX3",
             "type": "scene"
@@ -546,8 +556,23 @@
         "type": "scene"
       },
       {
+        "id": "131",
+        "name": "LittleDeathZone",
+        "type": "scene"
+      },
+      {
+        "id": "132",
+        "name": "MediumDeathZone",
+        "type": "scene"
+      },
+      {
         "id": "119",
         "name": "Water",
+        "type": "scene"
+      },
+      {
+        "id": "124",
+        "name": "Score",
         "type": "scene"
       }
     ]

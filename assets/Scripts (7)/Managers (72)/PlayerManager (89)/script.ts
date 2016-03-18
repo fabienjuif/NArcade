@@ -2,7 +2,7 @@ class PlayerManager {
   private playerName;
   
   constructor() {
-    this.playerName = "Player";
+    this.setPlayerName("Player");
   }
   
   setPlayerName(playerName:string) {
