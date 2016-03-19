@@ -26,8 +26,8 @@ class CoinBehavior extends Sup.Behavior {
   }
 
   update() {
-    if(Sup.ArcadePhysics2D.intersects(this.actor.arcadeBody2D, this.player.arcadeBody2D)) {
-      if (!this.catched) {
+    if (!this.catched) {
+      if(Sup.ArcadePhysics2D.intersects(this.actor.arcadeBody2D, this.player.arcadeBody2D)) {
         this.catchIt();
       }
     }
