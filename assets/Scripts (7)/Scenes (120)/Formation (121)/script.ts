@@ -26,8 +26,6 @@ class FormationBehavior extends Sup.Behavior {
     Sup.getActor("MovingPlatform3").getBehavior(MovingPlatformBehavior).direction = true;
     
   }
-
-  update() {
-  }
+  
 }
 Sup.registerBehavior(FormationBehavior);

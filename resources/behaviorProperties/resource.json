@@ -172,6 +172,18 @@
       "line": 0,
       "parentBehavior": null,
       "properties": []
+    },
+    "ExperienceBehavior": {
+      "scriptId": "214",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "HobbiesBehavior": {
+      "scriptId": "215",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
     }
   }
 }

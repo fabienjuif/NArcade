@@ -150,8 +150,18 @@
             "type": "script"
           },
           {
+            "id": "215",
+            "name": "Hobbies",
+            "type": "script"
+          },
+          {
             "id": "121",
             "name": "Formation",
+            "type": "script"
+          },
+          {
+            "id": "214",
+            "name": "Experience",
             "type": "script"
           }
         ]
