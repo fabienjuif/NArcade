@@ -591,16 +591,16 @@
             "type": "sprite"
           },
           {
+            "id": "217",
+            "name": "BigSpikes",
+            "type": "sprite"
+          },
+          {
             "id": "203",
             "name": "Panel",
             "type": "sprite"
           }
         ]
-      },
-      {
-        "id": "143",
-        "name": "BrokenGrassPlatform",
-        "type": "sprite"
       },
       {
         "id": "190",
@@ -615,6 +615,11 @@
           {
             "id": "99",
             "name": "IcyBackground",
+            "type": "sprite"
+          },
+          {
+            "id": "216",
+            "name": "LavaBackground",
             "type": "sprite"
           }
         ]
@@ -640,6 +645,11 @@
             "type": "sprite"
           }
         ]
+      },
+      {
+        "id": "143",
+        "name": "BrokenGrassPlatform",
+        "type": "sprite"
       }
     ]
   },
