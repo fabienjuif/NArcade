@@ -36,11 +36,11 @@
           "config": {
             "type": "box",
             "movable": true,
-            "width": 1,
-            "height": 0.5,
+            "width": 0.5,
+            "height": 1,
             "offset": {
-              "x": 0.5,
-              "y": 0.25
+              "x": 0.25,
+              "y": -0.5
             },
             "tileMapAssetId": null,
             "tileSetPropertyName": null,
@@ -57,8 +57,8 @@
       "orientation": {
         "x": 0,
         "y": 0,
-        "z": 0,
-        "w": 1
+        "z": -0.7071067811865475,
+        "w": 0.7071067811865476
       },
       "scale": {
         "x": 1,

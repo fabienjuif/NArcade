@@ -7,9 +7,6 @@ class PlayerBehavior extends Sup.Behavior {
   }
 
   update() {
-    // FIXME : Delete
-    Sup.log(Sup.Game.getFPS());
-    
     //Sup.log("Animation : ",this.actor.spriteRenderer.getAnimation());
     let velocity = this.actor.arcadeBody2D.getVelocity();
     
