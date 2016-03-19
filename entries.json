@@ -214,6 +214,16 @@
         "type": "scene"
       },
       {
+        "id": "204",
+        "name": "Formation2",
+        "type": "scene"
+      },
+      {
+        "id": "205",
+        "name": "Experience",
+        "type": "scene"
+      },
+      {
         "id": "194",
         "name": "Hobby",
         "type": "scene"
@@ -536,6 +546,11 @@
           {
             "id": "135",
             "name": "Spikes",
+            "type": "sprite"
+          },
+          {
+            "id": "203",
+            "name": "Panel",
             "type": "sprite"
           }
         ]
