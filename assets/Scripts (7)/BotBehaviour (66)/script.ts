@@ -1,4 +1,4 @@
-let ioConnection = io.connect("127.0.0.1:4000"); // FIXME : Utiliser un reverse proxy
+let ioConnection = io.connect("/socker.io"); // FIXME : Utiliser un reverse proxy
 
 ioConnection.on("error",function(data){
   Sup.log("ERROR : ",JSON.stringify(data));
