@@ -685,6 +685,21 @@
             "id": "177",
             "name": "CandyColumnX4",
             "type": "scene"
+          },
+          {
+            "id": "200",
+            "name": "IceRockColumn",
+            "type": "scene"
+          },
+          {
+            "id": "201",
+            "name": "LavaRockColumn",
+            "type": "scene"
+          },
+          {
+            "id": "202",
+            "name": "CandyRockColumn",
+            "type": "scene"
           }
         ]
       },
