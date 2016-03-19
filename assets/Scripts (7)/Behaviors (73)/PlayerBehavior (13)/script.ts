@@ -55,7 +55,7 @@ class PlayerBehavior extends Sup.Behavior {
       else if(!behavior.direction && !behavior.getOrientation()){
         this.actor.arcadeBody2D.warpPosition({
           x:this.actor.getPosition().x,
-          y:touchedMovingPlatforms.getSize().height+1.21+touchedMovingPlatforms.actor.getPosition().y
+          y:touchedMovingPlatforms.getSize().height+1.178+touchedMovingPlatforms.actor.getPosition().y
         })
       }
     }

@@ -11,7 +11,7 @@ class LevelManager {
     //"Scenes/Presentation2",
     "Scenes/Formation2",
     //"Scenes/Experience",
-    //"Scenes/Hobbies",
+    "Scenes/Hobbies",
     //"Scenes/Score",
   ]
   

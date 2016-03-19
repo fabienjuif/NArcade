@@ -23,7 +23,7 @@ class FormationBehavior extends Sup.Behavior {
     Sup.getActor("MovingPlatform3").getBehavior(MovingPlatformBehavior).min = 15;
     Sup.getActor("MovingPlatform3").getBehavior(MovingPlatformBehavior).max = 22;
     Sup.getActor("MovingPlatform3").getBehavior(MovingPlatformBehavior).speed = 0.06;
-    Sup.getActor("MovingPlatform3").getBehavior(MovingPlatformBehavior).direction = false;
+    Sup.getActor("MovingPlatform3").getBehavior(MovingPlatformBehavior).direction = true;
     
   }
 
