@@ -259,6 +259,11 @@
             "id": "150",
             "name": "Candy",
             "type": "tileSet"
+          },
+          {
+            "id": "206",
+            "name": "Ice",
+            "type": "tileSet"
           }
         ]
       },
@@ -523,6 +528,23 @@
                 "id": "167",
                 "name": "TopPoison",
                 "type": "sprite"
+              }
+            ]
+          },
+          {
+            "id": "207",
+            "name": "Decors",
+            "type": null,
+            "children": [
+              {
+                "id": "208",
+                "name": "Angle",
+                "type": "tileMap"
+              },
+              {
+                "id": "209",
+                "name": "Sapin",
+                "type": "tileMap"
               }
             ]
           }

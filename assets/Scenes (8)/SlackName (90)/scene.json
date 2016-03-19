@@ -99,7 +99,7 @@
             "fontAssetId": "48",
             "text": "> man NArcade\n$ Veuillez saisir votre pseudo Slack puis appuyer sur la touche \"Entrer\"",
             "alignment": "left",
-            "size": 24,
+            "size": null,
             "color": null,
             "verticalAlignment": "center"
           },
@@ -107,8 +107,8 @@
         }
       ],
       "position": {
-        "x": -5.566018104553223,
-        "y": 2.7489013671875,
+        "x": -6,
+        "y": 3,
         "z": 0
       },
       "orientation": {
@@ -149,8 +149,8 @@
             }
           ],
           "position": {
-            "x": -0.6490283012390137,
-            "y": 0.6157464385032654,
+            "x": -0.2673978805541992,
+            "y": 0.3052677512168884,
             "z": 0
           },
           "orientation": {
@@ -187,8 +187,8 @@
             }
           ],
           "position": {
-            "x": -0.37702274322509766,
-            "y": 0.05042743682861328,
+            "x": -0.18111324310302734,
+            "y": 0.030595123767852783,
             "z": 0
           },
           "orientation": {
@@ -230,8 +230,8 @@
         }
       ],
       "position": {
-        "x": -4.938271522521973,
-        "y": -1.6112154722213745,
+        "x": -5.450323104858398,
+        "y": -0.9780076742172241,
         "z": 1
       },
       "orientation": {
@@ -241,8 +241,8 @@
         "w": 1
       },
       "scale": {
-        "x": 1,
-        "y": 1,
+        "x": 2,
+        "y": 2,
         "z": 1
       },
       "visible": true,

@@ -6,7 +6,7 @@ class LevelManager {
     "Scenes/PlayerChoice",
     "Scenes/SlackName",
     //"Scenes/TestScene",
-    //"Scenes/Tutorial",
+    "Scenes/Tutorial",
     //"Scenes/Presentation",
     "Scenes/Presentation2",
     "Scenes/Formation",

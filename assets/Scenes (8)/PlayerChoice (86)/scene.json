@@ -59,7 +59,7 @@
                 "fontAssetId": "48",
                 "text": "Choix du joueur",
                 "alignment": "center",
-                "size": 32,
+                "size": null,
                 "color": "ffffff",
                 "verticalAlignment": "center"
               },
@@ -97,7 +97,7 @@
                 "fontAssetId": "48",
                 "text": "<= yvonnick",
                 "alignment": "center",
-                "size": 17,
+                "size": null,
                 "color": "ffffff",
                 "verticalAlignment": "center"
               },
@@ -105,8 +105,8 @@
             }
           ],
           "position": {
-            "x": -4.119,
-            "y": -2.109,
+            "x": -3.7955846786499023,
+            "y": -1.9999998807907104,
             "z": 0
           },
           "orientation": {
@@ -135,7 +135,7 @@
                 "fontAssetId": "48",
                 "text": "fabien.juif =>",
                 "alignment": "center",
-                "size": 17,
+                "size": null,
                 "color": "ffffff",
                 "verticalAlignment": "center"
               },
@@ -143,8 +143,8 @@
             }
           ],
           "position": {
-            "x": 4.028,
-            "y": -2.109,
+            "x": 3.69,
+            "y": -2,
             "z": 0
           },
           "orientation": {
@@ -170,7 +170,7 @@
             "fontAssetId": "48",
             "text": "NArcade",
             "alignment": "center",
-            "size": 44,
+            "size": null,
             "color": "ffffff",
             "verticalAlignment": "center"
           },
