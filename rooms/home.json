@@ -1,0 +1,79 @@
+{
+  "history": [
+    {
+      "timestamp": 1458411867207,
+      "author": "Yvonnick",
+      "text": "Oh y a un chat !"
+    },
+    {
+      "timestamp": 1458412128270,
+      "author": "Fabien",
+      "text": "Coucou"
+    },
+    {
+      "timestamp": 1458412165535,
+      "author": "Yvonnick",
+      "text": "ça y est je m'y remets ;) Je vais refaire formation selon tes recommandations et ensuite c'est parti pour expérience ;)"
+    },
+    {
+      "timestamp": 1458412170013,
+      "author": "Fabien",
+      "text": "Pour la police j'ai une piste, garder la taille d'origine (32), et faire un dezoom dans un sous acteur"
+    },
+    {
+      "timestamp": 1458412185136,
+      "author": "Yvonnick",
+      "text": "Pour l'avoir plus net ?"
+    },
+    {
+      "timestamp": 1458412187820,
+      "author": "Fabien",
+      "text": "Ouai"
+    },
+    {
+      "timestamp": 1458412193827,
+      "author": "Yvonnick",
+      "text": "C'est bien vu !"
+    },
+    {
+      "timestamp": 1458412207830,
+      "author": "Yvonnick",
+      "text": "Tiens je vais faire l'encart avant de me lancer sur les niveaux !"
+    },
+    {
+      "timestamp": 1458412212314,
+      "author": "Fabien",
+      "text": "Faut retoucher un peu le code pour tester jusqu'au bout, je pense que je regarde ça demain dans la journée"
+    },
+    {
+      "timestamp": 1458412240413,
+      "author": "Yvonnick",
+      "text": "Ok, t'as réussi à mettre en place l'architecture pour le bot ou pas encore ?"
+    },
+    {
+      "timestamp": 1458412249791,
+      "author": "Fabien",
+      "text": "Non pas encore"
+    },
+    {
+      "timestamp": 1458412255344,
+      "author": "Yvonnick",
+      "text": "Ok pas de soucis :)"
+    },
+    {
+      "timestamp": 1458413575363,
+      "author": "Yvonnick",
+      "text": "Tiens j'ai rajouté un sprite dans Sprites/Items c'est le panel. Tu peux me dire ce que tu en penses ? C'est pour derrière le texte."
+    },
+    {
+      "timestamp": 1458415379771,
+      "author": "Fabien",
+      "text": "Ouai je pense que ça le fait"
+    },
+    {
+      "timestamp": 1458415382244,
+      "author": "Fabien",
+      "text": "a voir en jeu"
+    }
+  ]
+}
