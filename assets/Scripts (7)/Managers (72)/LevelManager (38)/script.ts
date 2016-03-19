@@ -7,7 +7,7 @@ class LevelManager {
     "Scenes/SlackName",
     //"Scenes/TestScene",
     //"Scenes/Tutorial",
-    "Scenes/Presentation",
+    //"Scenes/Presentation",
     "Scenes/Presentation2",
     "Scenes/Formation",
     //"Scenes/Experience",
