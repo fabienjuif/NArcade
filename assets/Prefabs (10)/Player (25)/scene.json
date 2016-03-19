@@ -16,7 +16,7 @@
                 "fontAssetId": "48",
                 "text": "",
                 "alignment": "center",
-                "size": 30,
+                "size": null,
                 "color": "ffb31c",
                 "verticalAlignment": "bottom"
               },
