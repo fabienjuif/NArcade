@@ -13,10 +13,10 @@
             {
               "type": "TextRenderer",
               "config": {
-                "fontAssetId": "48",
+                "fontAssetId": "197",
                 "text": "",
                 "alignment": "center",
-                "size": null,
+                "size": 16,
                 "color": "ffb31c",
                 "verticalAlignment": "bottom"
               },

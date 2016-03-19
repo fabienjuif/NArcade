@@ -2,6 +2,7 @@ class LevelManager {
   
   private currentLevel = 0;
   private levels:string[] = [
+    "Scenes/TestPolice",
     "Scenes/PlayerChoice",
     "Scenes/SlackName",
     //"Scenes/TestScene",
