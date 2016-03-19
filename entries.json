@@ -597,6 +597,11 @@
             "type": "scene"
           },
           {
+            "id": "193",
+            "name": "DirtColumn",
+            "type": "scene"
+          },
+          {
             "id": "105",
             "name": "IceColumn",
             "type": "scene"
