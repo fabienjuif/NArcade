@@ -9062,7 +9062,7 @@
               "type": "ArcadeBody2D",
               "config": {
                 "type": "box",
-                "movable": true,
+                "movable": false,
                 "width": 8,
                 "height": 6,
                 "offset": {
@@ -9694,7 +9694,7 @@
               "type": "ArcadeBody2D",
               "config": {
                 "type": "box",
-                "movable": true,
+                "movable": false,
                 "width": 8,
                 "height": 6,
                 "offset": {
@@ -10913,60 +10913,6 @@
           "prefab": {
             "sceneAssetId": "136"
           }
-        },
-        {
-          "id": "501",
-          "name": "Spikes",
-          "children": [],
-          "components": [],
-          "position": {
-            "x": 57.867,
-            "y": -9.521,
-            "z": 0
-          },
-          "orientation": {
-            "x": 0,
-            "y": 0,
-            "z": 0,
-            "w": 1
-          },
-          "scale": {
-            "x": 1,
-            "y": 1,
-            "z": 1
-          },
-          "visible": true,
-          "layer": 0,
-          "prefab": {
-            "sceneAssetId": "136"
-          }
-        },
-        {
-          "id": "502",
-          "name": "Spikes",
-          "children": [],
-          "components": [],
-          "position": {
-            "x": 64.997,
-            "y": -9.521,
-            "z": 0
-          },
-          "orientation": {
-            "x": 0,
-            "y": 0,
-            "z": 0,
-            "w": 1
-          },
-          "scale": {
-            "x": 1,
-            "y": 1,
-            "z": 1
-          },
-          "visible": true,
-          "layer": 0,
-          "prefab": {
-            "sceneAssetId": "136"
-          }
         }
       ],
       "components": [],
@@ -11054,7 +11000,7 @@
           "type": "ArcadeBody2D",
           "config": {
             "type": "box",
-            "movable": true,
+            "movable": false,
             "width": 1,
             "height": 4,
             "offset": {
@@ -11074,6 +11020,14 @@
             "propertyValues": {}
           },
           "id": "1"
+        },
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "GroundBehavior",
+            "propertyValues": {}
+          },
+          "id": "2"
         }
       ],
       "position": {
@@ -11378,7 +11332,7 @@
           "position": {
             "x": 58,
             "y": -10,
-            "z": 15
+            "z": 0
           },
           "orientation": {
             "x": 0,
@@ -11405,7 +11359,7 @@
           "position": {
             "x": 65,
             "y": -10,
-            "z": 15
+            "z": 0
           },
           "orientation": {
             "x": 0,
