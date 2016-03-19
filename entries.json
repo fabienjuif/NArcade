@@ -537,13 +537,8 @@
             "type": null,
             "children": [
               {
-                "id": "208",
-                "name": "Angle",
-                "type": "tileMap"
-              },
-              {
-                "id": "209",
-                "name": "Sapin",
+                "id": "210",
+                "name": "Igloo",
                 "type": "tileMap"
               }
             ]
