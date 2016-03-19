@@ -4,7 +4,46 @@
     {
       "id": "0",
       "name": "Coin",
-      "children": [],
+      "children": [
+        {
+          "id": "1",
+          "name": "Text",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "fontAssetId": "197",
+                "text": "Ceci est du text\nCa raconte\nun peu nimp",
+                "alignment": "center",
+                "size": null,
+                "color": "fefdff",
+                "verticalAlignment": "center"
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 0.2,
+            "y": 0.2,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        }
+      ],
       "components": [
         {
           "type": "SpriteRenderer",
@@ -56,10 +95,10 @@
         {
           "type": "TextRenderer",
           "config": {
-            "fontAssetId": "197",
+            "fontAssetId": "199",
             "text": "",
             "alignment": "center",
-            "size": 8,
+            "size": null,
             "color": "4e33fd",
             "verticalAlignment": "bottom"
           },
