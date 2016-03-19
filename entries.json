@@ -540,6 +540,21 @@
                 "id": "210",
                 "name": "Igloo",
                 "type": "tileMap"
+              },
+              {
+                "id": "211",
+                "name": "Fir",
+                "type": "tileMap"
+              },
+              {
+                "id": "212",
+                "name": "Rock1",
+                "type": "tileMap"
+              },
+              {
+                "id": "213",
+                "name": "Rock2",
+                "type": "tileMap"
               }
             ]
           }
