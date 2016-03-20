@@ -1,4 +1,4 @@
-let ioConnection = io.connect("/socker.io"); // FIXME : Utiliser un reverse proxy
+let ioConnection = io.connect();
 
 ioConnection.on("error",function(data){
   Sup.log("ERROR : ",JSON.stringify(data));
