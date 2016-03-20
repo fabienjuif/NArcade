@@ -959,6 +959,11 @@
             "id": "119",
             "name": "Water",
             "type": "scene"
+          },
+          {
+            "id": "218",
+            "name": "Lava",
+            "type": "scene"
           }
         ]
       },
