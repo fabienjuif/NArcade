@@ -580,6 +580,31 @@
                 "id": "222",
                 "name": "CactusSmall",
                 "type": "sprite"
+              },
+              {
+                "id": "223",
+                "name": "Lolipop",
+                "type": "tileMap"
+              },
+              {
+                "id": "224",
+                "name": "Lolipop2",
+                "type": "tileMap"
+              },
+              {
+                "id": "225",
+                "name": "CandyTop",
+                "type": "tileMap"
+              },
+              {
+                "id": "226",
+                "name": "CandyBottom",
+                "type": "tileMap"
+              },
+              {
+                "id": "227",
+                "name": "SugarCandy",
+                "type": "tileMap"
               }
             ]
           }

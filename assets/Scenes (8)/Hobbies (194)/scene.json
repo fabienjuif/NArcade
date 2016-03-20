@@ -860,8 +860,8 @@
       "children": [],
       "components": [],
       "position": {
-        "x": -16,
-        "y": 14,
+        "x": 19,
+        "y": -5,
         "z": 3
       },
       "orientation": {
@@ -16772,140 +16772,6 @@
                       "name": "4x4",
                       "children": [
                         {
-                          "id": "799",
-                          "name": "4x1",
-                          "children": [
-                            {
-                              "id": "800",
-                              "name": "1",
-                              "children": [],
-                              "components": [],
-                              "position": {
-                                "x": -6,
-                                "y": 8,
-                                "z": 0
-                              },
-                              "orientation": {
-                                "x": 0,
-                                "y": 0,
-                                "z": 0,
-                                "w": 1
-                              },
-                              "scale": {
-                                "x": 1,
-                                "y": 1,
-                                "z": 1
-                              },
-                              "visible": true,
-                              "layer": 0,
-                              "prefab": {
-                                "sceneAssetId": "202"
-                              }
-                            },
-                            {
-                              "id": "801",
-                              "name": "1",
-                              "children": [],
-                              "components": [],
-                              "position": {
-                                "x": -5,
-                                "y": 8,
-                                "z": 0
-                              },
-                              "orientation": {
-                                "x": 0,
-                                "y": 0,
-                                "z": 0,
-                                "w": 1
-                              },
-                              "scale": {
-                                "x": 1,
-                                "y": 1,
-                                "z": 1
-                              },
-                              "visible": true,
-                              "layer": 0,
-                              "prefab": {
-                                "sceneAssetId": "202"
-                              }
-                            },
-                            {
-                              "id": "802",
-                              "name": "1",
-                              "children": [],
-                              "components": [],
-                              "position": {
-                                "x": -4,
-                                "y": 8,
-                                "z": 0
-                              },
-                              "orientation": {
-                                "x": 0,
-                                "y": 0,
-                                "z": 0,
-                                "w": 1
-                              },
-                              "scale": {
-                                "x": 1,
-                                "y": 1,
-                                "z": 1
-                              },
-                              "visible": true,
-                              "layer": 0,
-                              "prefab": {
-                                "sceneAssetId": "202"
-                              }
-                            },
-                            {
-                              "id": "803",
-                              "name": "1",
-                              "children": [],
-                              "components": [],
-                              "position": {
-                                "x": -3,
-                                "y": 8,
-                                "z": 0
-                              },
-                              "orientation": {
-                                "x": 0,
-                                "y": 0,
-                                "z": 0,
-                                "w": 1
-                              },
-                              "scale": {
-                                "x": 1,
-                                "y": 1,
-                                "z": 1
-                              },
-                              "visible": true,
-                              "layer": 0,
-                              "prefab": {
-                                "sceneAssetId": "202"
-                              }
-                            }
-                          ],
-                          "components": [],
-                          "position": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                          },
-                          "orientation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0,
-                            "w": 1
-                          },
-                          "scale": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 1
-                          },
-                          "visible": true,
-                          "layer": 0,
-                          "prefab": null
-                        },
-                        {
                           "id": "804",
                           "name": "4x1",
                           "children": [
@@ -31072,6 +30938,140 @@
               "visible": true,
               "layer": 0,
               "prefab": null
+            },
+            {
+              "id": "1413",
+              "name": "Left",
+              "children": [
+                {
+                  "id": "1414",
+                  "name": "Grass",
+                  "children": [],
+                  "components": [],
+                  "position": {
+                    "x": 15,
+                    "y": -10,
+                    "z": 0
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefab": {
+                    "sceneAssetId": "174"
+                  }
+                },
+                {
+                  "id": "1415",
+                  "name": "Grass",
+                  "children": [],
+                  "components": [],
+                  "position": {
+                    "x": 16,
+                    "y": -10,
+                    "z": 0
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefab": {
+                    "sceneAssetId": "174"
+                  }
+                },
+                {
+                  "id": "1416",
+                  "name": "Grass",
+                  "children": [],
+                  "components": [],
+                  "position": {
+                    "x": 14,
+                    "y": -10,
+                    "z": 0
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefab": {
+                    "sceneAssetId": "174"
+                  }
+                },
+                {
+                  "id": "1417",
+                  "name": "Grass",
+                  "children": [],
+                  "components": [],
+                  "position": {
+                    "x": 13,
+                    "y": -10,
+                    "z": 0
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefab": {
+                    "sceneAssetId": "174"
+                  }
+                }
+              ],
+              "components": [],
+              "position": {
+                "x": -35,
+                "y": -4,
+                "z": 2
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefab": null
             }
           ],
           "components": [],
@@ -35265,6 +35265,60 @@
       }
     },
     {
+      "id": "1410",
+      "name": "SlackMovingPlatform1",
+      "children": [],
+      "components": [],
+      "position": {
+        "x": -14.5,
+        "y": -14,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": {
+        "sceneAssetId": "186"
+      }
+    },
+    {
+      "id": "1418",
+      "name": "SlackMovingPlatform2",
+      "children": [],
+      "components": [],
+      "position": {
+        "x": -9,
+        "y": -11,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": {
+        "sceneAssetId": "186"
+      }
+    },
+    {
       "id": "73",
       "name": "Items",
       "children": [
@@ -35400,8 +35454,33 @@
             }
           ],
           "position": {
-            "x": -7.5,
+            "x": -12,
             "y": -10,
+            "z": 1
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": -0.3826834323650898,
+            "w": 0.9238795325112867
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "108",
+          "name": "Exit",
+          "children": [],
+          "components": [],
+          "position": {
+            "x": -9,
+            "y": -4,
             "z": 0
           },
           "orientation": {
@@ -35417,7 +35496,36 @@
           },
           "visible": true,
           "layer": 0,
-          "prefab": null
+          "prefab": {
+            "sceneAssetId": "41"
+          }
+        },
+        {
+          "id": "1412",
+          "name": "Exit",
+          "children": [],
+          "components": [],
+          "position": {
+            "x": -22,
+            "y": -13,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": {
+            "sceneAssetId": "41"
+          }
         }
       ],
       "components": [],
@@ -35440,33 +35548,6 @@
       "visible": true,
       "layer": 0,
       "prefab": null
-    },
-    {
-      "id": "108",
-      "name": "Exit",
-      "children": [],
-      "components": [],
-      "position": {
-        "x": -9,
-        "y": -4,
-        "z": 0
-      },
-      "orientation": {
-        "x": 0,
-        "y": 0,
-        "z": 0,
-        "w": 1
-      },
-      "scale": {
-        "x": 1,
-        "y": 1,
-        "z": 1
-      },
-      "visible": true,
-      "layer": 0,
-      "prefab": {
-        "sceneAssetId": "41"
-      }
     },
     {
       "id": "76",
@@ -35961,33 +36042,6 @@
       "visible": true,
       "layer": 0,
       "prefab": null
-    },
-    {
-      "id": "1410",
-      "name": "SlackMovingPlatform1",
-      "children": [],
-      "components": [],
-      "position": {
-        "x": -14.5,
-        "y": -14,
-        "z": 0
-      },
-      "orientation": {
-        "x": 0,
-        "y": 0,
-        "z": 0,
-        "w": 1
-      },
-      "scale": {
-        "x": 1,
-        "y": 1,
-        "z": 1
-      },
-      "visible": true,
-      "layer": 0,
-      "prefab": {
-        "sceneAssetId": "186"
-      }
     }
   ]
 }
