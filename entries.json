@@ -565,6 +565,21 @@
                 "id": "213",
                 "name": "Rock2",
                 "type": "tileMap"
+              },
+              {
+                "id": "220",
+                "name": "Fence",
+                "type": "sprite"
+              },
+              {
+                "id": "221",
+                "name": "CactusLarge",
+                "type": "sprite"
+              },
+              {
+                "id": "222",
+                "name": "CactusSmall",
+                "type": "sprite"
               }
             ]
           }
@@ -598,6 +613,11 @@
           {
             "id": "203",
             "name": "Panel",
+            "type": "sprite"
+          },
+          {
+            "id": "219",
+            "name": "ArrowSlack",
             "type": "sprite"
           }
         ]

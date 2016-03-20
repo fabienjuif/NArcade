@@ -2733,7 +2733,33 @@
               "prefab": null
             }
           ],
-          "components": [],
+          "components": [
+            {
+              "type": "ArcadeBody2D",
+              "config": {
+                "type": "box",
+                "movable": false,
+                "width": 12,
+                "height": 18,
+                "offset": {
+                  "x": 0,
+                  "y": 3
+                },
+                "tileMapAssetId": null,
+                "tileSetPropertyName": null,
+                "layersIndex": null
+              },
+              "id": "0"
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "GroundBehavior",
+                "propertyValues": {}
+              },
+              "id": "1"
+            }
+          ],
           "position": {
             "x": -55,
             "y": -19,
@@ -2758,620 +2784,6 @@
           "id": "441",
           "name": "Bottom",
           "children": [
-            {
-              "id": "371",
-              "name": "BottomPart1",
-              "children": [
-                {
-                  "id": "158",
-                  "name": "LineX2Lava",
-                  "children": [
-                    {
-                      "id": "159",
-                      "name": "1X4Lava",
-                      "children": [
-                        {
-                          "id": "160",
-                          "name": "Rock",
-                          "children": [],
-                          "components": [],
-                          "position": {
-                            "x": -2,
-                            "y": 1,
-                            "z": 0
-                          },
-                          "orientation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0,
-                            "w": 1
-                          },
-                          "scale": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 1
-                          },
-                          "visible": true,
-                          "layer": 0,
-                          "prefab": {
-                            "sceneAssetId": "170"
-                          }
-                        },
-                        {
-                          "id": "161",
-                          "name": "Rock",
-                          "children": [],
-                          "components": [],
-                          "position": {
-                            "x": -1,
-                            "y": 1,
-                            "z": 0
-                          },
-                          "orientation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0,
-                            "w": 1
-                          },
-                          "scale": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 1
-                          },
-                          "visible": true,
-                          "layer": 0,
-                          "prefab": {
-                            "sceneAssetId": "170"
-                          }
-                        },
-                        {
-                          "id": "162",
-                          "name": "Rock",
-                          "children": [],
-                          "components": [],
-                          "position": {
-                            "x": 0,
-                            "y": 1,
-                            "z": 0
-                          },
-                          "orientation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0,
-                            "w": 1
-                          },
-                          "scale": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 1
-                          },
-                          "visible": true,
-                          "layer": 0,
-                          "prefab": {
-                            "sceneAssetId": "170"
-                          }
-                        },
-                        {
-                          "id": "163",
-                          "name": "Rock",
-                          "children": [],
-                          "components": [],
-                          "position": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 0
-                          },
-                          "orientation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0,
-                            "w": 1
-                          },
-                          "scale": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 1
-                          },
-                          "visible": true,
-                          "layer": 0,
-                          "prefab": {
-                            "sceneAssetId": "170"
-                          }
-                        }
-                      ],
-                      "components": [],
-                      "position": {
-                        "x": -2,
-                        "y": 0,
-                        "z": 0
-                      },
-                      "orientation": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0,
-                        "w": 1
-                      },
-                      "scale": {
-                        "x": 1,
-                        "y": 1,
-                        "z": 1
-                      },
-                      "visible": true,
-                      "layer": 0,
-                      "prefab": null
-                    },
-                    {
-                      "id": "164",
-                      "name": "1X4Lava",
-                      "children": [
-                        {
-                          "id": "165",
-                          "name": "Rock",
-                          "children": [],
-                          "components": [],
-                          "position": {
-                            "x": -2,
-                            "y": 1,
-                            "z": 0
-                          },
-                          "orientation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0,
-                            "w": 1
-                          },
-                          "scale": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 1
-                          },
-                          "visible": true,
-                          "layer": 0,
-                          "prefab": {
-                            "sceneAssetId": "170"
-                          }
-                        },
-                        {
-                          "id": "166",
-                          "name": "Rock",
-                          "children": [],
-                          "components": [],
-                          "position": {
-                            "x": -1,
-                            "y": 1,
-                            "z": 0
-                          },
-                          "orientation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0,
-                            "w": 1
-                          },
-                          "scale": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 1
-                          },
-                          "visible": true,
-                          "layer": 0,
-                          "prefab": {
-                            "sceneAssetId": "170"
-                          }
-                        },
-                        {
-                          "id": "167",
-                          "name": "Rock",
-                          "children": [],
-                          "components": [],
-                          "position": {
-                            "x": 0,
-                            "y": 1,
-                            "z": 0
-                          },
-                          "orientation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0,
-                            "w": 1
-                          },
-                          "scale": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 1
-                          },
-                          "visible": true,
-                          "layer": 0,
-                          "prefab": {
-                            "sceneAssetId": "170"
-                          }
-                        },
-                        {
-                          "id": "168",
-                          "name": "Rock",
-                          "children": [],
-                          "components": [],
-                          "position": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 0
-                          },
-                          "orientation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0,
-                            "w": 1
-                          },
-                          "scale": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 1
-                          },
-                          "visible": true,
-                          "layer": 0,
-                          "prefab": {
-                            "sceneAssetId": "170"
-                          }
-                        }
-                      ],
-                      "components": [],
-                      "position": {
-                        "x": 2,
-                        "y": 0,
-                        "z": 0
-                      },
-                      "orientation": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0,
-                        "w": 1
-                      },
-                      "scale": {
-                        "x": 1,
-                        "y": 1,
-                        "z": 1
-                      },
-                      "visible": true,
-                      "layer": 0,
-                      "prefab": null
-                    }
-                  ],
-                  "components": [],
-                  "position": {
-                    "x": 0,
-                    "y": 1,
-                    "z": 0
-                  },
-                  "orientation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0,
-                    "w": 1
-                  },
-                  "scale": {
-                    "x": 1,
-                    "y": 1,
-                    "z": 1
-                  },
-                  "visible": true,
-                  "layer": 0,
-                  "prefab": null
-                },
-                {
-                  "id": "185",
-                  "name": "LineX2",
-                  "children": [
-                    {
-                      "id": "186",
-                      "name": "1X4Rock",
-                      "children": [
-                        {
-                          "id": "187",
-                          "name": "Rock",
-                          "children": [],
-                          "components": [],
-                          "position": {
-                            "x": -2,
-                            "y": 1,
-                            "z": 0
-                          },
-                          "orientation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0,
-                            "w": 1
-                          },
-                          "scale": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 1
-                          },
-                          "visible": true,
-                          "layer": 0,
-                          "prefab": {
-                            "sceneAssetId": "201"
-                          }
-                        },
-                        {
-                          "id": "188",
-                          "name": "Rock",
-                          "children": [],
-                          "components": [],
-                          "position": {
-                            "x": -1,
-                            "y": 1,
-                            "z": 0
-                          },
-                          "orientation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0,
-                            "w": 1
-                          },
-                          "scale": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 1
-                          },
-                          "visible": true,
-                          "layer": 0,
-                          "prefab": {
-                            "sceneAssetId": "201"
-                          }
-                        },
-                        {
-                          "id": "189",
-                          "name": "Rock",
-                          "children": [],
-                          "components": [],
-                          "position": {
-                            "x": 0,
-                            "y": 1,
-                            "z": 0
-                          },
-                          "orientation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0,
-                            "w": 1
-                          },
-                          "scale": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 1
-                          },
-                          "visible": true,
-                          "layer": 0,
-                          "prefab": {
-                            "sceneAssetId": "201"
-                          }
-                        },
-                        {
-                          "id": "190",
-                          "name": "Rock",
-                          "children": [],
-                          "components": [],
-                          "position": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 0
-                          },
-                          "orientation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0,
-                            "w": 1
-                          },
-                          "scale": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 1
-                          },
-                          "visible": true,
-                          "layer": 0,
-                          "prefab": {
-                            "sceneAssetId": "201"
-                          }
-                        }
-                      ],
-                      "components": [],
-                      "position": {
-                        "x": -2,
-                        "y": 0,
-                        "z": 0
-                      },
-                      "orientation": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0,
-                        "w": 1
-                      },
-                      "scale": {
-                        "x": 1,
-                        "y": 1,
-                        "z": 1
-                      },
-                      "visible": true,
-                      "layer": 0,
-                      "prefab": null
-                    },
-                    {
-                      "id": "191",
-                      "name": "1X4Rock",
-                      "children": [
-                        {
-                          "id": "192",
-                          "name": "Rock",
-                          "children": [],
-                          "components": [],
-                          "position": {
-                            "x": -2,
-                            "y": 1,
-                            "z": 0
-                          },
-                          "orientation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0,
-                            "w": 1
-                          },
-                          "scale": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 1
-                          },
-                          "visible": true,
-                          "layer": 0,
-                          "prefab": {
-                            "sceneAssetId": "201"
-                          }
-                        },
-                        {
-                          "id": "193",
-                          "name": "Rock",
-                          "children": [],
-                          "components": [],
-                          "position": {
-                            "x": -1,
-                            "y": 1,
-                            "z": 0
-                          },
-                          "orientation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0,
-                            "w": 1
-                          },
-                          "scale": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 1
-                          },
-                          "visible": true,
-                          "layer": 0,
-                          "prefab": {
-                            "sceneAssetId": "201"
-                          }
-                        },
-                        {
-                          "id": "194",
-                          "name": "Rock",
-                          "children": [],
-                          "components": [],
-                          "position": {
-                            "x": 0,
-                            "y": 1,
-                            "z": 0
-                          },
-                          "orientation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0,
-                            "w": 1
-                          },
-                          "scale": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 1
-                          },
-                          "visible": true,
-                          "layer": 0,
-                          "prefab": {
-                            "sceneAssetId": "201"
-                          }
-                        },
-                        {
-                          "id": "195",
-                          "name": "Rock",
-                          "children": [],
-                          "components": [],
-                          "position": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 0
-                          },
-                          "orientation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0,
-                            "w": 1
-                          },
-                          "scale": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 1
-                          },
-                          "visible": true,
-                          "layer": 0,
-                          "prefab": {
-                            "sceneAssetId": "201"
-                          }
-                        }
-                      ],
-                      "components": [],
-                      "position": {
-                        "x": 2,
-                        "y": 0,
-                        "z": 0
-                      },
-                      "orientation": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0,
-                        "w": 1
-                      },
-                      "scale": {
-                        "x": 1,
-                        "y": 1,
-                        "z": 1
-                      },
-                      "visible": true,
-                      "layer": 0,
-                      "prefab": null
-                    }
-                  ],
-                  "components": [],
-                  "position": {
-                    "x": 0,
-                    "y": -2,
-                    "z": 0
-                  },
-                  "orientation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0,
-                    "w": 1
-                  },
-                  "scale": {
-                    "x": 1,
-                    "y": 1,
-                    "z": 1
-                  },
-                  "visible": true,
-                  "layer": 0,
-                  "prefab": null
-                }
-              ],
-              "components": [],
-              "position": {
-                "x": -45,
-                "y": -22,
-                "z": 0
-              },
-              "orientation": {
-                "x": 0,
-                "y": 0,
-                "z": 0,
-                "w": 1
-              },
-              "scale": {
-                "x": 1,
-                "y": 1,
-                "z": 1
-              },
-              "visible": true,
-              "layer": 0,
-              "prefab": null
-            },
             {
               "id": "458",
               "name": "BottomPart2",
@@ -3645,623 +3057,35 @@
                   "prefab": null
                 }
               ],
-              "components": [],
-              "position": {
-                "x": -19,
-                "y": -22,
-                "z": 0
-              },
-              "orientation": {
-                "x": 0,
-                "y": 0,
-                "z": 0,
-                "w": 1
-              },
-              "scale": {
-                "x": 1,
-                "y": 1,
-                "z": 1
-              },
-              "visible": true,
-              "layer": 0,
-              "prefab": null
-            },
-            {
-              "id": "574",
-              "name": "BottomPart3",
-              "children": [
+              "components": [
                 {
-                  "id": "575",
-                  "name": "LineX2Lava",
-                  "children": [
-                    {
-                      "id": "576",
-                      "name": "1X4Lava",
-                      "children": [
-                        {
-                          "id": "577",
-                          "name": "Rock",
-                          "children": [],
-                          "components": [],
-                          "position": {
-                            "x": -2,
-                            "y": 1,
-                            "z": 0
-                          },
-                          "orientation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0,
-                            "w": 1
-                          },
-                          "scale": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 1
-                          },
-                          "visible": true,
-                          "layer": 0,
-                          "prefab": {
-                            "sceneAssetId": "170"
-                          }
-                        },
-                        {
-                          "id": "578",
-                          "name": "Rock",
-                          "children": [],
-                          "components": [],
-                          "position": {
-                            "x": -1,
-                            "y": 1,
-                            "z": 0
-                          },
-                          "orientation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0,
-                            "w": 1
-                          },
-                          "scale": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 1
-                          },
-                          "visible": true,
-                          "layer": 0,
-                          "prefab": {
-                            "sceneAssetId": "170"
-                          }
-                        },
-                        {
-                          "id": "579",
-                          "name": "Rock",
-                          "children": [],
-                          "components": [],
-                          "position": {
-                            "x": 0,
-                            "y": 1,
-                            "z": 0
-                          },
-                          "orientation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0,
-                            "w": 1
-                          },
-                          "scale": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 1
-                          },
-                          "visible": true,
-                          "layer": 0,
-                          "prefab": {
-                            "sceneAssetId": "170"
-                          }
-                        },
-                        {
-                          "id": "580",
-                          "name": "Rock",
-                          "children": [],
-                          "components": [],
-                          "position": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 0
-                          },
-                          "orientation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0,
-                            "w": 1
-                          },
-                          "scale": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 1
-                          },
-                          "visible": true,
-                          "layer": 0,
-                          "prefab": {
-                            "sceneAssetId": "170"
-                          }
-                        }
-                      ],
-                      "components": [],
-                      "position": {
-                        "x": -2,
-                        "y": 0,
-                        "z": 0
-                      },
-                      "orientation": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0,
-                        "w": 1
-                      },
-                      "scale": {
-                        "x": 1,
-                        "y": 1,
-                        "z": 1
-                      },
-                      "visible": true,
-                      "layer": 0,
-                      "prefab": null
+                  "type": "ArcadeBody2D",
+                  "config": {
+                    "type": "box",
+                    "movable": false,
+                    "width": 4,
+                    "height": 6,
+                    "offset": {
+                      "x": 0,
+                      "y": 0
                     },
-                    {
-                      "id": "581",
-                      "name": "1X4Lava",
-                      "children": [
-                        {
-                          "id": "582",
-                          "name": "Rock",
-                          "children": [],
-                          "components": [],
-                          "position": {
-                            "x": -2,
-                            "y": 1,
-                            "z": 0
-                          },
-                          "orientation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0,
-                            "w": 1
-                          },
-                          "scale": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 1
-                          },
-                          "visible": true,
-                          "layer": 0,
-                          "prefab": {
-                            "sceneAssetId": "170"
-                          }
-                        },
-                        {
-                          "id": "583",
-                          "name": "Rock",
-                          "children": [],
-                          "components": [],
-                          "position": {
-                            "x": -1,
-                            "y": 1,
-                            "z": 0
-                          },
-                          "orientation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0,
-                            "w": 1
-                          },
-                          "scale": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 1
-                          },
-                          "visible": true,
-                          "layer": 0,
-                          "prefab": {
-                            "sceneAssetId": "170"
-                          }
-                        },
-                        {
-                          "id": "584",
-                          "name": "Rock",
-                          "children": [],
-                          "components": [],
-                          "position": {
-                            "x": 0,
-                            "y": 1,
-                            "z": 0
-                          },
-                          "orientation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0,
-                            "w": 1
-                          },
-                          "scale": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 1
-                          },
-                          "visible": true,
-                          "layer": 0,
-                          "prefab": {
-                            "sceneAssetId": "170"
-                          }
-                        },
-                        {
-                          "id": "585",
-                          "name": "Rock",
-                          "children": [],
-                          "components": [],
-                          "position": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 0
-                          },
-                          "orientation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0,
-                            "w": 1
-                          },
-                          "scale": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 1
-                          },
-                          "visible": true,
-                          "layer": 0,
-                          "prefab": {
-                            "sceneAssetId": "170"
-                          }
-                        }
-                      ],
-                      "components": [],
-                      "position": {
-                        "x": 2,
-                        "y": 0,
-                        "z": 0
-                      },
-                      "orientation": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0,
-                        "w": 1
-                      },
-                      "scale": {
-                        "x": 1,
-                        "y": 1,
-                        "z": 1
-                      },
-                      "visible": true,
-                      "layer": 0,
-                      "prefab": null
-                    }
-                  ],
-                  "components": [],
-                  "position": {
-                    "x": 0,
-                    "y": 1,
-                    "z": 0
+                    "tileMapAssetId": null,
+                    "tileSetPropertyName": null,
+                    "layersIndex": null
                   },
-                  "orientation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0,
-                    "w": 1
-                  },
-                  "scale": {
-                    "x": 1,
-                    "y": 1,
-                    "z": 1
-                  },
-                  "visible": true,
-                  "layer": 0,
-                  "prefab": null
+                  "id": "0"
                 },
                 {
-                  "id": "586",
-                  "name": "LineX2",
-                  "children": [
-                    {
-                      "id": "587",
-                      "name": "1X4Rock",
-                      "children": [
-                        {
-                          "id": "588",
-                          "name": "Rock",
-                          "children": [],
-                          "components": [],
-                          "position": {
-                            "x": -2,
-                            "y": 1,
-                            "z": 0
-                          },
-                          "orientation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0,
-                            "w": 1
-                          },
-                          "scale": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 1
-                          },
-                          "visible": true,
-                          "layer": 0,
-                          "prefab": {
-                            "sceneAssetId": "201"
-                          }
-                        },
-                        {
-                          "id": "589",
-                          "name": "Rock",
-                          "children": [],
-                          "components": [],
-                          "position": {
-                            "x": -1,
-                            "y": 1,
-                            "z": 0
-                          },
-                          "orientation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0,
-                            "w": 1
-                          },
-                          "scale": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 1
-                          },
-                          "visible": true,
-                          "layer": 0,
-                          "prefab": {
-                            "sceneAssetId": "201"
-                          }
-                        },
-                        {
-                          "id": "590",
-                          "name": "Rock",
-                          "children": [],
-                          "components": [],
-                          "position": {
-                            "x": 0,
-                            "y": 1,
-                            "z": 0
-                          },
-                          "orientation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0,
-                            "w": 1
-                          },
-                          "scale": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 1
-                          },
-                          "visible": true,
-                          "layer": 0,
-                          "prefab": {
-                            "sceneAssetId": "201"
-                          }
-                        },
-                        {
-                          "id": "591",
-                          "name": "Rock",
-                          "children": [],
-                          "components": [],
-                          "position": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 0
-                          },
-                          "orientation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0,
-                            "w": 1
-                          },
-                          "scale": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 1
-                          },
-                          "visible": true,
-                          "layer": 0,
-                          "prefab": {
-                            "sceneAssetId": "201"
-                          }
-                        }
-                      ],
-                      "components": [],
-                      "position": {
-                        "x": -2,
-                        "y": 0,
-                        "z": 0
-                      },
-                      "orientation": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0,
-                        "w": 1
-                      },
-                      "scale": {
-                        "x": 1,
-                        "y": 1,
-                        "z": 1
-                      },
-                      "visible": true,
-                      "layer": 0,
-                      "prefab": null
-                    },
-                    {
-                      "id": "592",
-                      "name": "1X4Rock",
-                      "children": [
-                        {
-                          "id": "593",
-                          "name": "Rock",
-                          "children": [],
-                          "components": [],
-                          "position": {
-                            "x": -2,
-                            "y": 1,
-                            "z": 0
-                          },
-                          "orientation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0,
-                            "w": 1
-                          },
-                          "scale": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 1
-                          },
-                          "visible": true,
-                          "layer": 0,
-                          "prefab": {
-                            "sceneAssetId": "201"
-                          }
-                        },
-                        {
-                          "id": "594",
-                          "name": "Rock",
-                          "children": [],
-                          "components": [],
-                          "position": {
-                            "x": -1,
-                            "y": 1,
-                            "z": 0
-                          },
-                          "orientation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0,
-                            "w": 1
-                          },
-                          "scale": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 1
-                          },
-                          "visible": true,
-                          "layer": 0,
-                          "prefab": {
-                            "sceneAssetId": "201"
-                          }
-                        },
-                        {
-                          "id": "595",
-                          "name": "Rock",
-                          "children": [],
-                          "components": [],
-                          "position": {
-                            "x": 0,
-                            "y": 1,
-                            "z": 0
-                          },
-                          "orientation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0,
-                            "w": 1
-                          },
-                          "scale": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 1
-                          },
-                          "visible": true,
-                          "layer": 0,
-                          "prefab": {
-                            "sceneAssetId": "201"
-                          }
-                        },
-                        {
-                          "id": "596",
-                          "name": "Rock",
-                          "children": [],
-                          "components": [],
-                          "position": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 0
-                          },
-                          "orientation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0,
-                            "w": 1
-                          },
-                          "scale": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 1
-                          },
-                          "visible": true,
-                          "layer": 0,
-                          "prefab": {
-                            "sceneAssetId": "201"
-                          }
-                        }
-                      ],
-                      "components": [],
-                      "position": {
-                        "x": 2,
-                        "y": 0,
-                        "z": 0
-                      },
-                      "orientation": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0,
-                        "w": 1
-                      },
-                      "scale": {
-                        "x": 1,
-                        "y": 1,
-                        "z": 1
-                      },
-                      "visible": true,
-                      "layer": 0,
-                      "prefab": null
-                    }
-                  ],
-                  "components": [],
-                  "position": {
-                    "x": 0,
-                    "y": -2,
-                    "z": 0
+                  "type": "Behavior",
+                  "config": {
+                    "behaviorName": "GroundBehavior",
+                    "propertyValues": {}
                   },
-                  "orientation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0,
-                    "w": 1
-                  },
-                  "scale": {
-                    "x": 1,
-                    "y": 1,
-                    "z": 1
-                  },
-                  "visible": true,
-                  "layer": 0,
-                  "prefab": null
+                  "id": "1"
                 }
               ],
-              "components": [],
               "position": {
-                "x": -37,
+                "x": -19,
                 "y": -22,
                 "z": 0
               },
@@ -7035,10 +5859,1316 @@
                   "prefab": null
                 }
               ],
-              "components": [],
+              "components": [
+                {
+                  "type": "ArcadeBody2D",
+                  "config": {
+                    "type": "box",
+                    "movable": false,
+                    "width": 4,
+                    "height": 12,
+                    "offset": {
+                      "x": 0,
+                      "y": -3
+                    },
+                    "tileMapAssetId": null,
+                    "tileSetPropertyName": null,
+                    "layersIndex": null
+                  },
+                  "id": "0"
+                },
+                {
+                  "type": "Behavior",
+                  "config": {
+                    "behaviorName": "GroundBehavior",
+                    "propertyValues": {}
+                  },
+                  "id": "1"
+                }
+              ],
               "position": {
                 "x": 41,
                 "y": -16,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefab": null
+            },
+            {
+              "id": "933",
+              "name": "Line1",
+              "children": [
+                {
+                  "id": "574",
+                  "name": "BottomPart3",
+                  "children": [
+                    {
+                      "id": "575",
+                      "name": "LineX2Lava",
+                      "children": [
+                        {
+                          "id": "576",
+                          "name": "1X4Lava",
+                          "children": [
+                            {
+                              "id": "577",
+                              "name": "Rock",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": -2,
+                                "y": 1,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "170"
+                              }
+                            },
+                            {
+                              "id": "578",
+                              "name": "Rock",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": -1,
+                                "y": 1,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "170"
+                              }
+                            },
+                            {
+                              "id": "579",
+                              "name": "Rock",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": 0,
+                                "y": 1,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "170"
+                              }
+                            },
+                            {
+                              "id": "580",
+                              "name": "Rock",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "170"
+                              }
+                            }
+                          ],
+                          "components": [],
+                          "position": {
+                            "x": -2,
+                            "y": 0,
+                            "z": 0
+                          },
+                          "orientation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 1
+                          },
+                          "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "visible": true,
+                          "layer": 0,
+                          "prefab": null
+                        },
+                        {
+                          "id": "581",
+                          "name": "1X4Lava",
+                          "children": [
+                            {
+                              "id": "582",
+                              "name": "Rock",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": -2,
+                                "y": 1,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "170"
+                              }
+                            },
+                            {
+                              "id": "583",
+                              "name": "Rock",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": -1,
+                                "y": 1,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "170"
+                              }
+                            },
+                            {
+                              "id": "584",
+                              "name": "Rock",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": 0,
+                                "y": 1,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "170"
+                              }
+                            },
+                            {
+                              "id": "585",
+                              "name": "Rock",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "170"
+                              }
+                            }
+                          ],
+                          "components": [],
+                          "position": {
+                            "x": 2,
+                            "y": 0,
+                            "z": 0
+                          },
+                          "orientation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 1
+                          },
+                          "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "visible": true,
+                          "layer": 0,
+                          "prefab": null
+                        }
+                      ],
+                      "components": [],
+                      "position": {
+                        "x": 0,
+                        "y": 1,
+                        "z": 0
+                      },
+                      "orientation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "visible": true,
+                      "layer": 0,
+                      "prefab": null
+                    },
+                    {
+                      "id": "586",
+                      "name": "LineX2",
+                      "children": [
+                        {
+                          "id": "587",
+                          "name": "1X4Rock",
+                          "children": [
+                            {
+                              "id": "588",
+                              "name": "Rock",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": -2,
+                                "y": 1,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "201"
+                              }
+                            },
+                            {
+                              "id": "589",
+                              "name": "Rock",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": -1,
+                                "y": 1,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "201"
+                              }
+                            },
+                            {
+                              "id": "590",
+                              "name": "Rock",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": 0,
+                                "y": 1,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "201"
+                              }
+                            },
+                            {
+                              "id": "591",
+                              "name": "Rock",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "201"
+                              }
+                            }
+                          ],
+                          "components": [],
+                          "position": {
+                            "x": -2,
+                            "y": 0,
+                            "z": 0
+                          },
+                          "orientation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 1
+                          },
+                          "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "visible": true,
+                          "layer": 0,
+                          "prefab": null
+                        },
+                        {
+                          "id": "592",
+                          "name": "1X4Rock",
+                          "children": [
+                            {
+                              "id": "593",
+                              "name": "Rock",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": -2,
+                                "y": 1,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "201"
+                              }
+                            },
+                            {
+                              "id": "594",
+                              "name": "Rock",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": -1,
+                                "y": 1,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "201"
+                              }
+                            },
+                            {
+                              "id": "595",
+                              "name": "Rock",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": 0,
+                                "y": 1,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "201"
+                              }
+                            },
+                            {
+                              "id": "596",
+                              "name": "Rock",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "201"
+                              }
+                            }
+                          ],
+                          "components": [],
+                          "position": {
+                            "x": 2,
+                            "y": 0,
+                            "z": 0
+                          },
+                          "orientation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 1
+                          },
+                          "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "visible": true,
+                          "layer": 0,
+                          "prefab": null
+                        }
+                      ],
+                      "components": [],
+                      "position": {
+                        "x": 0,
+                        "y": -2,
+                        "z": 0
+                      },
+                      "orientation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "visible": true,
+                      "layer": 0,
+                      "prefab": null
+                    }
+                  ],
+                  "components": [],
+                  "position": {
+                    "x": 4,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefab": null
+                },
+                {
+                  "id": "371",
+                  "name": "BottomPart1",
+                  "children": [
+                    {
+                      "id": "158",
+                      "name": "LineX2Lava",
+                      "children": [
+                        {
+                          "id": "159",
+                          "name": "1X4Lava",
+                          "children": [
+                            {
+                              "id": "160",
+                              "name": "Rock",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": -2,
+                                "y": 1,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "170"
+                              }
+                            },
+                            {
+                              "id": "161",
+                              "name": "Rock",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": -1,
+                                "y": 1,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "170"
+                              }
+                            },
+                            {
+                              "id": "162",
+                              "name": "Rock",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": 0,
+                                "y": 1,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "170"
+                              }
+                            },
+                            {
+                              "id": "163",
+                              "name": "Rock",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "170"
+                              }
+                            }
+                          ],
+                          "components": [],
+                          "position": {
+                            "x": -2,
+                            "y": 0,
+                            "z": 0
+                          },
+                          "orientation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 1
+                          },
+                          "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "visible": true,
+                          "layer": 0,
+                          "prefab": null
+                        },
+                        {
+                          "id": "164",
+                          "name": "1X4Lava",
+                          "children": [
+                            {
+                              "id": "165",
+                              "name": "Rock",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": -2,
+                                "y": 1,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "170"
+                              }
+                            },
+                            {
+                              "id": "166",
+                              "name": "Rock",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": -1,
+                                "y": 1,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "170"
+                              }
+                            },
+                            {
+                              "id": "167",
+                              "name": "Rock",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": 0,
+                                "y": 1,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "170"
+                              }
+                            },
+                            {
+                              "id": "168",
+                              "name": "Rock",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "170"
+                              }
+                            }
+                          ],
+                          "components": [],
+                          "position": {
+                            "x": 2,
+                            "y": 0,
+                            "z": 0
+                          },
+                          "orientation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 1
+                          },
+                          "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "visible": true,
+                          "layer": 0,
+                          "prefab": null
+                        }
+                      ],
+                      "components": [],
+                      "position": {
+                        "x": 0,
+                        "y": 1,
+                        "z": 0
+                      },
+                      "orientation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "visible": true,
+                      "layer": 0,
+                      "prefab": null
+                    },
+                    {
+                      "id": "185",
+                      "name": "LineX2",
+                      "children": [
+                        {
+                          "id": "186",
+                          "name": "1X4Rock",
+                          "children": [
+                            {
+                              "id": "187",
+                              "name": "Rock",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": -2,
+                                "y": 1,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "201"
+                              }
+                            },
+                            {
+                              "id": "188",
+                              "name": "Rock",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": -1,
+                                "y": 1,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "201"
+                              }
+                            },
+                            {
+                              "id": "189",
+                              "name": "Rock",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": 0,
+                                "y": 1,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "201"
+                              }
+                            },
+                            {
+                              "id": "190",
+                              "name": "Rock",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "201"
+                              }
+                            }
+                          ],
+                          "components": [],
+                          "position": {
+                            "x": -2,
+                            "y": 0,
+                            "z": 0
+                          },
+                          "orientation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 1
+                          },
+                          "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "visible": true,
+                          "layer": 0,
+                          "prefab": null
+                        },
+                        {
+                          "id": "191",
+                          "name": "1X4Rock",
+                          "children": [
+                            {
+                              "id": "192",
+                              "name": "Rock",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": -2,
+                                "y": 1,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "201"
+                              }
+                            },
+                            {
+                              "id": "193",
+                              "name": "Rock",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": -1,
+                                "y": 1,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "201"
+                              }
+                            },
+                            {
+                              "id": "194",
+                              "name": "Rock",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": 0,
+                                "y": 1,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "201"
+                              }
+                            },
+                            {
+                              "id": "195",
+                              "name": "Rock",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "201"
+                              }
+                            }
+                          ],
+                          "components": [],
+                          "position": {
+                            "x": 2,
+                            "y": 0,
+                            "z": 0
+                          },
+                          "orientation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 1
+                          },
+                          "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "visible": true,
+                          "layer": 0,
+                          "prefab": null
+                        }
+                      ],
+                      "components": [],
+                      "position": {
+                        "x": 0,
+                        "y": -2,
+                        "z": 0
+                      },
+                      "orientation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "visible": true,
+                      "layer": 0,
+                      "prefab": null
+                    }
+                  ],
+                  "components": [],
+                  "position": {
+                    "x": -4,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefab": null
+                }
+              ],
+              "components": [
+                {
+                  "type": "ArcadeBody2D",
+                  "config": {
+                    "type": "box",
+                    "movable": false,
+                    "width": 16,
+                    "height": 6,
+                    "offset": {
+                      "x": 0,
+                      "y": 0
+                    },
+                    "tileMapAssetId": null,
+                    "tileSetPropertyName": null,
+                    "layersIndex": null
+                  },
+                  "id": "0"
+                },
+                {
+                  "type": "Behavior",
+                  "config": {
+                    "behaviorName": "GroundBehavior",
+                    "propertyValues": {}
+                  },
+                  "id": "1"
+                }
+              ],
+              "position": {
+                "x": -41,
+                "y": -22,
                 "z": 0
               },
               "orientation": {

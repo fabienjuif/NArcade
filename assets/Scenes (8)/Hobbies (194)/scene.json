@@ -837,7 +837,7 @@
       "position": {
         "x": 0,
         "y": 0,
-        "z": 0
+        "z": -1
       },
       "orientation": {
         "x": 0,
@@ -860,7 +860,7 @@
       "children": [],
       "components": [],
       "position": {
-        "x": -4,
+        "x": -16,
         "y": 14,
         "z": 3
       },
@@ -14988,7 +14988,7 @@
                           "position": {
                             "x": -6,
                             "y": 8,
-                            "z": 0
+                            "z": 1
                           },
                           "orientation": {
                             "x": 0,
@@ -17734,140 +17734,6 @@
                           "visible": true,
                           "layer": 0,
                           "prefab": null
-                        },
-                        {
-                          "id": "793",
-                          "name": "4x1",
-                          "children": [
-                            {
-                              "id": "794",
-                              "name": "1",
-                              "children": [],
-                              "components": [],
-                              "position": {
-                                "x": -6,
-                                "y": 8,
-                                "z": 0
-                              },
-                              "orientation": {
-                                "x": 0,
-                                "y": 0,
-                                "z": 0,
-                                "w": 1
-                              },
-                              "scale": {
-                                "x": 1,
-                                "y": 1,
-                                "z": 1
-                              },
-                              "visible": true,
-                              "layer": 0,
-                              "prefab": {
-                                "sceneAssetId": "202"
-                              }
-                            },
-                            {
-                              "id": "795",
-                              "name": "1",
-                              "children": [],
-                              "components": [],
-                              "position": {
-                                "x": -5,
-                                "y": 8,
-                                "z": 0
-                              },
-                              "orientation": {
-                                "x": 0,
-                                "y": 0,
-                                "z": 0,
-                                "w": 1
-                              },
-                              "scale": {
-                                "x": 1,
-                                "y": 1,
-                                "z": 1
-                              },
-                              "visible": true,
-                              "layer": 0,
-                              "prefab": {
-                                "sceneAssetId": "202"
-                              }
-                            },
-                            {
-                              "id": "796",
-                              "name": "1",
-                              "children": [],
-                              "components": [],
-                              "position": {
-                                "x": -4,
-                                "y": 8,
-                                "z": 0
-                              },
-                              "orientation": {
-                                "x": 0,
-                                "y": 0,
-                                "z": 0,
-                                "w": 1
-                              },
-                              "scale": {
-                                "x": 1,
-                                "y": 1,
-                                "z": 1
-                              },
-                              "visible": true,
-                              "layer": 0,
-                              "prefab": {
-                                "sceneAssetId": "202"
-                              }
-                            },
-                            {
-                              "id": "797",
-                              "name": "1",
-                              "children": [],
-                              "components": [],
-                              "position": {
-                                "x": -3,
-                                "y": 8,
-                                "z": 0
-                              },
-                              "orientation": {
-                                "x": 0,
-                                "y": 0,
-                                "z": 0,
-                                "w": 1
-                              },
-                              "scale": {
-                                "x": 1,
-                                "y": 1,
-                                "z": 1
-                              },
-                              "visible": true,
-                              "layer": 0,
-                              "prefab": {
-                                "sceneAssetId": "202"
-                              }
-                            }
-                          ],
-                          "components": [],
-                          "position": {
-                            "x": 0,
-                            "y": -3,
-                            "z": 0
-                          },
-                          "orientation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0,
-                            "w": 1
-                          },
-                          "scale": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 1
-                          },
-                          "visible": true,
-                          "layer": 0,
-                          "prefab": null
                         }
                       ],
                       "components": [],
@@ -20122,6 +19988,568 @@
                       "position": {
                         "x": -16,
                         "y": 8,
+                        "z": 0
+                      },
+                      "orientation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "visible": true,
+                      "layer": 0,
+                      "prefab": null
+                    },
+                    {
+                      "id": "1387",
+                      "name": "4x4",
+                      "children": [
+                        {
+                          "id": "1388",
+                          "name": "4x1",
+                          "children": [
+                            {
+                              "id": "1389",
+                              "name": "1",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": -6,
+                                "y": 8,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "202"
+                              }
+                            },
+                            {
+                              "id": "1390",
+                              "name": "1",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": -5,
+                                "y": 8,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "202"
+                              }
+                            },
+                            {
+                              "id": "1391",
+                              "name": "1",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": -4,
+                                "y": 8,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "202"
+                              }
+                            },
+                            {
+                              "id": "1392",
+                              "name": "1",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": -3,
+                                "y": 8,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "202"
+                              }
+                            }
+                          ],
+                          "components": [],
+                          "position": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                          },
+                          "orientation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 1
+                          },
+                          "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "visible": true,
+                          "layer": 0,
+                          "prefab": null
+                        },
+                        {
+                          "id": "1393",
+                          "name": "4x1",
+                          "children": [
+                            {
+                              "id": "1394",
+                              "name": "1",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": -6,
+                                "y": 8,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "202"
+                              }
+                            },
+                            {
+                              "id": "1395",
+                              "name": "1",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": -5,
+                                "y": 8,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "202"
+                              }
+                            },
+                            {
+                              "id": "1396",
+                              "name": "1",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": -4,
+                                "y": 8,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "202"
+                              }
+                            },
+                            {
+                              "id": "1397",
+                              "name": "1",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": -3,
+                                "y": 8,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "202"
+                              }
+                            }
+                          ],
+                          "components": [],
+                          "position": {
+                            "x": -4,
+                            "y": 0,
+                            "z": 0
+                          },
+                          "orientation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 1
+                          },
+                          "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "visible": true,
+                          "layer": 0,
+                          "prefab": null
+                        },
+                        {
+                          "id": "1398",
+                          "name": "4x1",
+                          "children": [
+                            {
+                              "id": "1399",
+                              "name": "1",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": -6,
+                                "y": 8,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "202"
+                              }
+                            },
+                            {
+                              "id": "1400",
+                              "name": "1",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": -5,
+                                "y": 8,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "202"
+                              }
+                            },
+                            {
+                              "id": "1401",
+                              "name": "1",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": -4,
+                                "y": 8,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "202"
+                              }
+                            },
+                            {
+                              "id": "1402",
+                              "name": "1",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": -3,
+                                "y": 8,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "202"
+                              }
+                            }
+                          ],
+                          "components": [],
+                          "position": {
+                            "x": -4,
+                            "y": -3,
+                            "z": 0
+                          },
+                          "orientation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 1
+                          },
+                          "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "visible": true,
+                          "layer": 0,
+                          "prefab": null
+                        },
+                        {
+                          "id": "1403",
+                          "name": "4x1",
+                          "children": [
+                            {
+                              "id": "1404",
+                              "name": "1",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": -6,
+                                "y": 8,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "202"
+                              }
+                            },
+                            {
+                              "id": "1405",
+                              "name": "1",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": -5,
+                                "y": 8,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "202"
+                              }
+                            },
+                            {
+                              "id": "1406",
+                              "name": "1",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": -4,
+                                "y": 8,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "202"
+                              }
+                            },
+                            {
+                              "id": "1407",
+                              "name": "1",
+                              "children": [],
+                              "components": [],
+                              "position": {
+                                "x": -3,
+                                "y": 8,
+                                "z": 0
+                              },
+                              "orientation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0,
+                                "w": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "visible": true,
+                              "layer": 0,
+                              "prefab": {
+                                "sceneAssetId": "202"
+                              }
+                            }
+                          ],
+                          "components": [],
+                          "position": {
+                            "x": 0,
+                            "y": -3,
+                            "z": 0
+                          },
+                          "orientation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 1
+                          },
+                          "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "visible": true,
+                          "layer": 0,
+                          "prefab": null
+                        }
+                      ],
+                      "components": [],
+                      "position": {
+                        "x": -13,
+                        "y": -25,
                         "z": 0
                       },
                       "orientation": {
@@ -31357,7 +31785,7 @@
                     "type": "box",
                     "movable": false,
                     "width": 4,
-                    "height": 31,
+                    "height": 26,
                     "offset": {
                       "x": 0,
                       "y": 0
@@ -31379,7 +31807,7 @@
               ],
               "position": {
                 "x": -20,
-                "y": 1.5,
+                "y": 4,
                 "z": 0
               },
               "orientation": {
@@ -31407,7 +31835,7 @@
                   "config": {
                     "type": "box",
                     "movable": false,
-                    "width": 4,
+                    "width": 7,
                     "height": 2,
                     "offset": {
                       "x": 0,
@@ -31429,7 +31857,7 @@
                 }
               ],
               "position": {
-                "x": -17,
+                "x": -19,
                 "y": -14,
                 "z": 0
               },
@@ -31533,6 +31961,57 @@
               "position": {
                 "x": -12,
                 "y": -3,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefab": null
+            },
+            {
+              "id": "1411",
+              "name": "LeftDirt",
+              "children": [],
+              "components": [
+                {
+                  "type": "ArcadeBody2D",
+                  "config": {
+                    "type": "box",
+                    "movable": false,
+                    "width": 4,
+                    "height": 5,
+                    "offset": {
+                      "x": 0,
+                      "y": 0
+                    },
+                    "tileMapAssetId": null,
+                    "tileSetPropertyName": null,
+                    "layersIndex": null
+                  },
+                  "id": "0"
+                },
+                {
+                  "type": "Behavior",
+                  "config": {
+                    "behaviorName": "GroundBehavior",
+                    "propertyValues": {}
+                  },
+                  "id": "2"
+                }
+              ],
+              "position": {
+                "x": -24,
+                "y": -11,
                 "z": 0
               },
               "orientation": {
@@ -32298,6 +32777,1977 @@
               "visible": true,
               "layer": 0,
               "prefab": null
+            },
+            {
+              "id": "1334",
+              "name": "PoisonLeft",
+              "children": [
+                {
+                  "id": "1335",
+                  "name": "Poison",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "SpriteRenderer",
+                      "config": {
+                        "spriteAssetId": "167",
+                        "animationId": null,
+                        "horizontalFlip": false,
+                        "verticalFlip": false,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "basic",
+                        "shaderAssetId": null
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 1,
+                    "y": 10,
+                    "z": 1
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefab": null
+                },
+                {
+                  "id": "1336",
+                  "name": "Poison",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "SpriteRenderer",
+                      "config": {
+                        "spriteAssetId": "167",
+                        "animationId": null,
+                        "horizontalFlip": false,
+                        "verticalFlip": false,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "basic",
+                        "shaderAssetId": null
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": -1,
+                    "y": 10,
+                    "z": 1
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefab": null
+                },
+                {
+                  "id": "1337",
+                  "name": "Poison",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "SpriteRenderer",
+                      "config": {
+                        "spriteAssetId": "167",
+                        "animationId": null,
+                        "horizontalFlip": false,
+                        "verticalFlip": false,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "basic",
+                        "shaderAssetId": null
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": -3,
+                    "y": 10,
+                    "z": 1
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefab": null
+                },
+                {
+                  "id": "1338",
+                  "name": "Poison",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "SpriteRenderer",
+                      "config": {
+                        "spriteAssetId": "167",
+                        "animationId": null,
+                        "horizontalFlip": false,
+                        "verticalFlip": false,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "basic",
+                        "shaderAssetId": null
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 3,
+                    "y": 10,
+                    "z": 1
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefab": null
+                },
+                {
+                  "id": "1339",
+                  "name": "Poison",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "SpriteRenderer",
+                      "config": {
+                        "spriteAssetId": "167",
+                        "animationId": null,
+                        "horizontalFlip": false,
+                        "verticalFlip": false,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "basic",
+                        "shaderAssetId": null
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 5,
+                    "y": 10,
+                    "z": 1
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefab": null
+                },
+                {
+                  "id": "1340",
+                  "name": "Poison",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "SpriteRenderer",
+                      "config": {
+                        "spriteAssetId": "167",
+                        "animationId": null,
+                        "horizontalFlip": false,
+                        "verticalFlip": false,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "basic",
+                        "shaderAssetId": null
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 7,
+                    "y": 10,
+                    "z": 1
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefab": null
+                },
+                {
+                  "id": "1341",
+                  "name": "Poison",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "SpriteRenderer",
+                      "config": {
+                        "spriteAssetId": "167",
+                        "animationId": null,
+                        "horizontalFlip": false,
+                        "verticalFlip": false,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "basic",
+                        "shaderAssetId": null
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 9,
+                    "y": 10,
+                    "z": 1
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefab": null
+                },
+                {
+                  "id": "1342",
+                  "name": "Poison",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "SpriteRenderer",
+                      "config": {
+                        "spriteAssetId": "167",
+                        "animationId": null,
+                        "horizontalFlip": false,
+                        "verticalFlip": false,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "basic",
+                        "shaderAssetId": null
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 11,
+                    "y": 10,
+                    "z": 1
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefab": null
+                }
+              ],
+              "components": [],
+              "position": {
+                "x": -30,
+                "y": 8,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefab": null
+            },
+            {
+              "id": "1343",
+              "name": "PoisonLeft",
+              "children": [
+                {
+                  "id": "1344",
+                  "name": "Poison",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "SpriteRenderer",
+                      "config": {
+                        "spriteAssetId": "167",
+                        "animationId": null,
+                        "horizontalFlip": false,
+                        "verticalFlip": false,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "basic",
+                        "shaderAssetId": null
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 1,
+                    "y": 10,
+                    "z": 1
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefab": null
+                },
+                {
+                  "id": "1345",
+                  "name": "Poison",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "SpriteRenderer",
+                      "config": {
+                        "spriteAssetId": "167",
+                        "animationId": null,
+                        "horizontalFlip": false,
+                        "verticalFlip": false,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "basic",
+                        "shaderAssetId": null
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": -1,
+                    "y": 10,
+                    "z": 1
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefab": null
+                },
+                {
+                  "id": "1346",
+                  "name": "Poison",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "SpriteRenderer",
+                      "config": {
+                        "spriteAssetId": "167",
+                        "animationId": null,
+                        "horizontalFlip": false,
+                        "verticalFlip": false,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "basic",
+                        "shaderAssetId": null
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": -3,
+                    "y": 10,
+                    "z": 1
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefab": null
+                },
+                {
+                  "id": "1347",
+                  "name": "Poison",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "SpriteRenderer",
+                      "config": {
+                        "spriteAssetId": "167",
+                        "animationId": null,
+                        "horizontalFlip": false,
+                        "verticalFlip": false,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "basic",
+                        "shaderAssetId": null
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 3,
+                    "y": 10,
+                    "z": 1
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefab": null
+                },
+                {
+                  "id": "1348",
+                  "name": "Poison",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "SpriteRenderer",
+                      "config": {
+                        "spriteAssetId": "167",
+                        "animationId": null,
+                        "horizontalFlip": false,
+                        "verticalFlip": false,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "basic",
+                        "shaderAssetId": null
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 5,
+                    "y": 10,
+                    "z": 1
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefab": null
+                },
+                {
+                  "id": "1349",
+                  "name": "Poison",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "SpriteRenderer",
+                      "config": {
+                        "spriteAssetId": "167",
+                        "animationId": null,
+                        "horizontalFlip": false,
+                        "verticalFlip": false,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "basic",
+                        "shaderAssetId": null
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 7,
+                    "y": 10,
+                    "z": 1
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefab": null
+                },
+                {
+                  "id": "1350",
+                  "name": "Poison",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "SpriteRenderer",
+                      "config": {
+                        "spriteAssetId": "167",
+                        "animationId": null,
+                        "horizontalFlip": false,
+                        "verticalFlip": false,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "basic",
+                        "shaderAssetId": null
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 9,
+                    "y": 10,
+                    "z": 1
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefab": null
+                },
+                {
+                  "id": "1351",
+                  "name": "Poison",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "SpriteRenderer",
+                      "config": {
+                        "spriteAssetId": "167",
+                        "animationId": null,
+                        "horizontalFlip": false,
+                        "verticalFlip": false,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "basic",
+                        "shaderAssetId": null
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 11,
+                    "y": 10,
+                    "z": 1
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefab": null
+                }
+              ],
+              "components": [],
+              "position": {
+                "x": -46,
+                "y": 8,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefab": null
+            },
+            {
+              "id": "1352",
+              "name": "PoisonCave",
+              "children": [
+                {
+                  "id": "1353",
+                  "name": "Poison",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "SpriteRenderer",
+                      "config": {
+                        "spriteAssetId": "167",
+                        "animationId": null,
+                        "horizontalFlip": false,
+                        "verticalFlip": false,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "basic",
+                        "shaderAssetId": null
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 1,
+                    "y": 10,
+                    "z": 1
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefab": null
+                },
+                {
+                  "id": "1354",
+                  "name": "Poison",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "SpriteRenderer",
+                      "config": {
+                        "spriteAssetId": "167",
+                        "animationId": null,
+                        "horizontalFlip": false,
+                        "verticalFlip": false,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "basic",
+                        "shaderAssetId": null
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": -1,
+                    "y": 10,
+                    "z": 1
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefab": null
+                },
+                {
+                  "id": "1355",
+                  "name": "Poison",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "SpriteRenderer",
+                      "config": {
+                        "spriteAssetId": "167",
+                        "animationId": null,
+                        "horizontalFlip": false,
+                        "verticalFlip": false,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "basic",
+                        "shaderAssetId": null
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": -3,
+                    "y": 10,
+                    "z": 1
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefab": null
+                },
+                {
+                  "id": "1356",
+                  "name": "Poison",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "SpriteRenderer",
+                      "config": {
+                        "spriteAssetId": "167",
+                        "animationId": null,
+                        "horizontalFlip": false,
+                        "verticalFlip": false,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "basic",
+                        "shaderAssetId": null
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 3,
+                    "y": 10,
+                    "z": 1
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefab": null
+                },
+                {
+                  "id": "1357",
+                  "name": "Poison",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "SpriteRenderer",
+                      "config": {
+                        "spriteAssetId": "167",
+                        "animationId": null,
+                        "horizontalFlip": false,
+                        "verticalFlip": false,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "basic",
+                        "shaderAssetId": null
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 5,
+                    "y": 10,
+                    "z": 1
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefab": null
+                },
+                {
+                  "id": "1362",
+                  "name": "BigPoison",
+                  "children": [
+                    {
+                      "id": "1367",
+                      "name": "Line",
+                      "children": [
+                        {
+                          "id": "1366",
+                          "name": "Poison",
+                          "children": [],
+                          "components": [
+                            {
+                              "type": "SpriteRenderer",
+                              "config": {
+                                "spriteAssetId": "166",
+                                "animationId": null,
+                                "horizontalFlip": false,
+                                "verticalFlip": false,
+                                "castShadow": false,
+                                "receiveShadow": false,
+                                "color": "ffffff",
+                                "overrideOpacity": false,
+                                "opacity": null,
+                                "materialType": "basic",
+                                "shaderAssetId": null
+                              },
+                              "id": "0"
+                            }
+                          ],
+                          "position": {
+                            "x": 5,
+                            "y": 8,
+                            "z": 0
+                          },
+                          "orientation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 1
+                          },
+                          "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "visible": true,
+                          "layer": 0,
+                          "prefab": null
+                        },
+                        {
+                          "id": "1365",
+                          "name": "Poison",
+                          "children": [],
+                          "components": [
+                            {
+                              "type": "SpriteRenderer",
+                              "config": {
+                                "spriteAssetId": "166",
+                                "animationId": null,
+                                "horizontalFlip": false,
+                                "verticalFlip": false,
+                                "castShadow": false,
+                                "receiveShadow": false,
+                                "color": "ffffff",
+                                "overrideOpacity": false,
+                                "opacity": null,
+                                "materialType": "basic",
+                                "shaderAssetId": null
+                              },
+                              "id": "0"
+                            }
+                          ],
+                          "position": {
+                            "x": 3,
+                            "y": 8,
+                            "z": 0
+                          },
+                          "orientation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 1
+                          },
+                          "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "visible": true,
+                          "layer": 0,
+                          "prefab": null
+                        },
+                        {
+                          "id": "1364",
+                          "name": "Poison",
+                          "children": [],
+                          "components": [
+                            {
+                              "type": "SpriteRenderer",
+                              "config": {
+                                "spriteAssetId": "166",
+                                "animationId": null,
+                                "horizontalFlip": false,
+                                "verticalFlip": false,
+                                "castShadow": false,
+                                "receiveShadow": false,
+                                "color": "ffffff",
+                                "overrideOpacity": false,
+                                "opacity": null,
+                                "materialType": "basic",
+                                "shaderAssetId": null
+                              },
+                              "id": "0"
+                            }
+                          ],
+                          "position": {
+                            "x": 1,
+                            "y": 8,
+                            "z": 0
+                          },
+                          "orientation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 1
+                          },
+                          "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "visible": true,
+                          "layer": 0,
+                          "prefab": null
+                        },
+                        {
+                          "id": "1363",
+                          "name": "Poison",
+                          "children": [],
+                          "components": [
+                            {
+                              "type": "SpriteRenderer",
+                              "config": {
+                                "spriteAssetId": "166",
+                                "animationId": null,
+                                "horizontalFlip": false,
+                                "verticalFlip": false,
+                                "castShadow": false,
+                                "receiveShadow": false,
+                                "color": "ffffff",
+                                "overrideOpacity": false,
+                                "opacity": null,
+                                "materialType": "basic",
+                                "shaderAssetId": null
+                              },
+                              "id": "0"
+                            }
+                          ],
+                          "position": {
+                            "x": -1,
+                            "y": 8,
+                            "z": 0
+                          },
+                          "orientation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 1
+                          },
+                          "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "visible": true,
+                          "layer": 0,
+                          "prefab": null
+                        },
+                        {
+                          "id": "1361",
+                          "name": "Poison",
+                          "children": [],
+                          "components": [
+                            {
+                              "type": "SpriteRenderer",
+                              "config": {
+                                "spriteAssetId": "166",
+                                "animationId": null,
+                                "horizontalFlip": false,
+                                "verticalFlip": false,
+                                "castShadow": false,
+                                "receiveShadow": false,
+                                "color": "ffffff",
+                                "overrideOpacity": false,
+                                "opacity": null,
+                                "materialType": "basic",
+                                "shaderAssetId": null
+                              },
+                              "id": "0"
+                            }
+                          ],
+                          "position": {
+                            "x": -3,
+                            "y": 8,
+                            "z": 0
+                          },
+                          "orientation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 1
+                          },
+                          "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "visible": true,
+                          "layer": 0,
+                          "prefab": null
+                        }
+                      ],
+                      "components": [],
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "orientation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "visible": true,
+                      "layer": 0,
+                      "prefab": null
+                    },
+                    {
+                      "id": "1368",
+                      "name": "Line",
+                      "children": [
+                        {
+                          "id": "1369",
+                          "name": "Poison",
+                          "children": [],
+                          "components": [
+                            {
+                              "type": "SpriteRenderer",
+                              "config": {
+                                "spriteAssetId": "166",
+                                "animationId": null,
+                                "horizontalFlip": false,
+                                "verticalFlip": false,
+                                "castShadow": false,
+                                "receiveShadow": false,
+                                "color": "ffffff",
+                                "overrideOpacity": false,
+                                "opacity": null,
+                                "materialType": "basic",
+                                "shaderAssetId": null
+                              },
+                              "id": "0"
+                            }
+                          ],
+                          "position": {
+                            "x": 5,
+                            "y": 8,
+                            "z": 0
+                          },
+                          "orientation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 1
+                          },
+                          "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "visible": true,
+                          "layer": 0,
+                          "prefab": null
+                        },
+                        {
+                          "id": "1370",
+                          "name": "Poison",
+                          "children": [],
+                          "components": [
+                            {
+                              "type": "SpriteRenderer",
+                              "config": {
+                                "spriteAssetId": "166",
+                                "animationId": null,
+                                "horizontalFlip": false,
+                                "verticalFlip": false,
+                                "castShadow": false,
+                                "receiveShadow": false,
+                                "color": "ffffff",
+                                "overrideOpacity": false,
+                                "opacity": null,
+                                "materialType": "basic",
+                                "shaderAssetId": null
+                              },
+                              "id": "0"
+                            }
+                          ],
+                          "position": {
+                            "x": 3,
+                            "y": 8,
+                            "z": 0
+                          },
+                          "orientation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 1
+                          },
+                          "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "visible": true,
+                          "layer": 0,
+                          "prefab": null
+                        },
+                        {
+                          "id": "1371",
+                          "name": "Poison",
+                          "children": [],
+                          "components": [
+                            {
+                              "type": "SpriteRenderer",
+                              "config": {
+                                "spriteAssetId": "166",
+                                "animationId": null,
+                                "horizontalFlip": false,
+                                "verticalFlip": false,
+                                "castShadow": false,
+                                "receiveShadow": false,
+                                "color": "ffffff",
+                                "overrideOpacity": false,
+                                "opacity": null,
+                                "materialType": "basic",
+                                "shaderAssetId": null
+                              },
+                              "id": "0"
+                            }
+                          ],
+                          "position": {
+                            "x": 1,
+                            "y": 8,
+                            "z": 0
+                          },
+                          "orientation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 1
+                          },
+                          "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "visible": true,
+                          "layer": 0,
+                          "prefab": null
+                        },
+                        {
+                          "id": "1372",
+                          "name": "Poison",
+                          "children": [],
+                          "components": [
+                            {
+                              "type": "SpriteRenderer",
+                              "config": {
+                                "spriteAssetId": "166",
+                                "animationId": null,
+                                "horizontalFlip": false,
+                                "verticalFlip": false,
+                                "castShadow": false,
+                                "receiveShadow": false,
+                                "color": "ffffff",
+                                "overrideOpacity": false,
+                                "opacity": null,
+                                "materialType": "basic",
+                                "shaderAssetId": null
+                              },
+                              "id": "0"
+                            }
+                          ],
+                          "position": {
+                            "x": -1,
+                            "y": 8,
+                            "z": 0
+                          },
+                          "orientation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 1
+                          },
+                          "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "visible": true,
+                          "layer": 0,
+                          "prefab": null
+                        },
+                        {
+                          "id": "1373",
+                          "name": "Poison",
+                          "children": [],
+                          "components": [
+                            {
+                              "type": "SpriteRenderer",
+                              "config": {
+                                "spriteAssetId": "166",
+                                "animationId": null,
+                                "horizontalFlip": false,
+                                "verticalFlip": false,
+                                "castShadow": false,
+                                "receiveShadow": false,
+                                "color": "ffffff",
+                                "overrideOpacity": false,
+                                "opacity": null,
+                                "materialType": "basic",
+                                "shaderAssetId": null
+                              },
+                              "id": "0"
+                            }
+                          ],
+                          "position": {
+                            "x": -3,
+                            "y": 8,
+                            "z": 0
+                          },
+                          "orientation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 1
+                          },
+                          "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "visible": true,
+                          "layer": 0,
+                          "prefab": null
+                        }
+                      ],
+                      "components": [],
+                      "position": {
+                        "x": 0,
+                        "y": -2,
+                        "z": 0
+                      },
+                      "orientation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "visible": true,
+                      "layer": 0,
+                      "prefab": null
+                    },
+                    {
+                      "id": "1374",
+                      "name": "Line",
+                      "children": [
+                        {
+                          "id": "1375",
+                          "name": "Poison",
+                          "children": [],
+                          "components": [
+                            {
+                              "type": "SpriteRenderer",
+                              "config": {
+                                "spriteAssetId": "166",
+                                "animationId": null,
+                                "horizontalFlip": false,
+                                "verticalFlip": false,
+                                "castShadow": false,
+                                "receiveShadow": false,
+                                "color": "ffffff",
+                                "overrideOpacity": false,
+                                "opacity": null,
+                                "materialType": "basic",
+                                "shaderAssetId": null
+                              },
+                              "id": "0"
+                            }
+                          ],
+                          "position": {
+                            "x": 5,
+                            "y": 8,
+                            "z": 0
+                          },
+                          "orientation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 1
+                          },
+                          "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "visible": true,
+                          "layer": 0,
+                          "prefab": null
+                        },
+                        {
+                          "id": "1376",
+                          "name": "Poison",
+                          "children": [],
+                          "components": [
+                            {
+                              "type": "SpriteRenderer",
+                              "config": {
+                                "spriteAssetId": "166",
+                                "animationId": null,
+                                "horizontalFlip": false,
+                                "verticalFlip": false,
+                                "castShadow": false,
+                                "receiveShadow": false,
+                                "color": "ffffff",
+                                "overrideOpacity": false,
+                                "opacity": null,
+                                "materialType": "basic",
+                                "shaderAssetId": null
+                              },
+                              "id": "0"
+                            }
+                          ],
+                          "position": {
+                            "x": 3,
+                            "y": 8,
+                            "z": 0
+                          },
+                          "orientation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 1
+                          },
+                          "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "visible": true,
+                          "layer": 0,
+                          "prefab": null
+                        },
+                        {
+                          "id": "1377",
+                          "name": "Poison",
+                          "children": [],
+                          "components": [
+                            {
+                              "type": "SpriteRenderer",
+                              "config": {
+                                "spriteAssetId": "166",
+                                "animationId": null,
+                                "horizontalFlip": false,
+                                "verticalFlip": false,
+                                "castShadow": false,
+                                "receiveShadow": false,
+                                "color": "ffffff",
+                                "overrideOpacity": false,
+                                "opacity": null,
+                                "materialType": "basic",
+                                "shaderAssetId": null
+                              },
+                              "id": "0"
+                            }
+                          ],
+                          "position": {
+                            "x": 1,
+                            "y": 8,
+                            "z": 0
+                          },
+                          "orientation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 1
+                          },
+                          "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "visible": true,
+                          "layer": 0,
+                          "prefab": null
+                        },
+                        {
+                          "id": "1378",
+                          "name": "Poison",
+                          "children": [],
+                          "components": [
+                            {
+                              "type": "SpriteRenderer",
+                              "config": {
+                                "spriteAssetId": "166",
+                                "animationId": null,
+                                "horizontalFlip": false,
+                                "verticalFlip": false,
+                                "castShadow": false,
+                                "receiveShadow": false,
+                                "color": "ffffff",
+                                "overrideOpacity": false,
+                                "opacity": null,
+                                "materialType": "basic",
+                                "shaderAssetId": null
+                              },
+                              "id": "0"
+                            }
+                          ],
+                          "position": {
+                            "x": -1,
+                            "y": 8,
+                            "z": 0
+                          },
+                          "orientation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 1
+                          },
+                          "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "visible": true,
+                          "layer": 0,
+                          "prefab": null
+                        },
+                        {
+                          "id": "1379",
+                          "name": "Poison",
+                          "children": [],
+                          "components": [
+                            {
+                              "type": "SpriteRenderer",
+                              "config": {
+                                "spriteAssetId": "166",
+                                "animationId": null,
+                                "horizontalFlip": false,
+                                "verticalFlip": false,
+                                "castShadow": false,
+                                "receiveShadow": false,
+                                "color": "ffffff",
+                                "overrideOpacity": false,
+                                "opacity": null,
+                                "materialType": "basic",
+                                "shaderAssetId": null
+                              },
+                              "id": "0"
+                            }
+                          ],
+                          "position": {
+                            "x": -3,
+                            "y": 8,
+                            "z": 0
+                          },
+                          "orientation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 1
+                          },
+                          "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "visible": true,
+                          "layer": 0,
+                          "prefab": null
+                        }
+                      ],
+                      "components": [],
+                      "position": {
+                        "x": 0,
+                        "y": -4,
+                        "z": 0
+                      },
+                      "orientation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "visible": true,
+                      "layer": 0,
+                      "prefab": null
+                    },
+                    {
+                      "id": "1380",
+                      "name": "Line",
+                      "children": [
+                        {
+                          "id": "1381",
+                          "name": "Poison",
+                          "children": [],
+                          "components": [
+                            {
+                              "type": "SpriteRenderer",
+                              "config": {
+                                "spriteAssetId": "166",
+                                "animationId": null,
+                                "horizontalFlip": false,
+                                "verticalFlip": false,
+                                "castShadow": false,
+                                "receiveShadow": false,
+                                "color": "ffffff",
+                                "overrideOpacity": false,
+                                "opacity": null,
+                                "materialType": "basic",
+                                "shaderAssetId": null
+                              },
+                              "id": "0"
+                            }
+                          ],
+                          "position": {
+                            "x": 5,
+                            "y": 8,
+                            "z": 0
+                          },
+                          "orientation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 1
+                          },
+                          "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "visible": true,
+                          "layer": 0,
+                          "prefab": null
+                        },
+                        {
+                          "id": "1382",
+                          "name": "Poison",
+                          "children": [],
+                          "components": [
+                            {
+                              "type": "SpriteRenderer",
+                              "config": {
+                                "spriteAssetId": "166",
+                                "animationId": null,
+                                "horizontalFlip": false,
+                                "verticalFlip": false,
+                                "castShadow": false,
+                                "receiveShadow": false,
+                                "color": "ffffff",
+                                "overrideOpacity": false,
+                                "opacity": null,
+                                "materialType": "basic",
+                                "shaderAssetId": null
+                              },
+                              "id": "0"
+                            }
+                          ],
+                          "position": {
+                            "x": 3,
+                            "y": 8,
+                            "z": 0
+                          },
+                          "orientation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 1
+                          },
+                          "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "visible": true,
+                          "layer": 0,
+                          "prefab": null
+                        },
+                        {
+                          "id": "1383",
+                          "name": "Poison",
+                          "children": [],
+                          "components": [
+                            {
+                              "type": "SpriteRenderer",
+                              "config": {
+                                "spriteAssetId": "166",
+                                "animationId": null,
+                                "horizontalFlip": false,
+                                "verticalFlip": false,
+                                "castShadow": false,
+                                "receiveShadow": false,
+                                "color": "ffffff",
+                                "overrideOpacity": false,
+                                "opacity": null,
+                                "materialType": "basic",
+                                "shaderAssetId": null
+                              },
+                              "id": "0"
+                            }
+                          ],
+                          "position": {
+                            "x": 1,
+                            "y": 8,
+                            "z": 0
+                          },
+                          "orientation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 1
+                          },
+                          "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "visible": true,
+                          "layer": 0,
+                          "prefab": null
+                        },
+                        {
+                          "id": "1384",
+                          "name": "Poison",
+                          "children": [],
+                          "components": [
+                            {
+                              "type": "SpriteRenderer",
+                              "config": {
+                                "spriteAssetId": "166",
+                                "animationId": null,
+                                "horizontalFlip": false,
+                                "verticalFlip": false,
+                                "castShadow": false,
+                                "receiveShadow": false,
+                                "color": "ffffff",
+                                "overrideOpacity": false,
+                                "opacity": null,
+                                "materialType": "basic",
+                                "shaderAssetId": null
+                              },
+                              "id": "0"
+                            }
+                          ],
+                          "position": {
+                            "x": -1,
+                            "y": 8,
+                            "z": 0
+                          },
+                          "orientation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 1
+                          },
+                          "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "visible": true,
+                          "layer": 0,
+                          "prefab": null
+                        },
+                        {
+                          "id": "1385",
+                          "name": "Poison",
+                          "children": [],
+                          "components": [
+                            {
+                              "type": "SpriteRenderer",
+                              "config": {
+                                "spriteAssetId": "166",
+                                "animationId": null,
+                                "horizontalFlip": false,
+                                "verticalFlip": false,
+                                "castShadow": false,
+                                "receiveShadow": false,
+                                "color": "ffffff",
+                                "overrideOpacity": false,
+                                "opacity": null,
+                                "materialType": "basic",
+                                "shaderAssetId": null
+                              },
+                              "id": "0"
+                            }
+                          ],
+                          "position": {
+                            "x": -3,
+                            "y": 8,
+                            "z": 0
+                          },
+                          "orientation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 1
+                          },
+                          "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "visible": true,
+                          "layer": 0,
+                          "prefab": null
+                        }
+                      ],
+                      "components": [],
+                      "position": {
+                        "x": 0,
+                        "y": -6,
+                        "z": 0
+                      },
+                      "orientation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "visible": true,
+                      "layer": 0,
+                      "prefab": null
+                    }
+                  ],
+                  "components": [],
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefab": null
+                }
+              ],
+              "components": [],
+              "position": {
+                "x": -11,
+                "y": -24,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefab": null
             }
           ],
           "components": [],
@@ -32662,6 +35112,108 @@
           "visible": true,
           "layer": 0,
           "prefab": null
+        },
+        {
+          "id": "1333",
+          "name": "Bigt bot death",
+          "children": [],
+          "components": [
+            {
+              "type": "ArcadeBody2D",
+              "config": {
+                "type": "box",
+                "movable": false,
+                "width": 96,
+                "height": 6,
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "tileMapAssetId": null,
+                "tileSetPropertyName": null,
+                "layersIndex": null
+              },
+              "id": "0"
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "DeathBehavior",
+                "propertyValues": {}
+              },
+              "id": "1"
+            }
+          ],
+          "position": {
+            "x": -4,
+            "y": -24,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "1386",
+          "name": "PoisonCave",
+          "children": [],
+          "components": [
+            {
+              "type": "ArcadeBody2D",
+              "config": {
+                "type": "box",
+                "movable": false,
+                "width": 12,
+                "height": 1,
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "tileMapAssetId": null,
+                "tileSetPropertyName": null,
+                "layersIndex": null
+              },
+              "id": "0"
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "DeathBehavior",
+                "propertyValues": {}
+              },
+              "id": "1"
+            }
+          ],
+          "position": {
+            "x": -9,
+            "y": -15,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
         }
       ],
       "components": [],
@@ -32823,6 +35375,49 @@
           "prefab": {
             "sceneAssetId": "56"
           }
+        },
+        {
+          "id": "1409",
+          "name": "ArrowSlack",
+          "children": [],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "spriteAssetId": "219",
+                "animationId": null,
+                "horizontalFlip": false,
+                "verticalFlip": false,
+                "castShadow": false,
+                "receiveShadow": false,
+                "color": "ffffff",
+                "overrideOpacity": false,
+                "opacity": null,
+                "materialType": "basic",
+                "shaderAssetId": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": -7.5,
+            "y": -10,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
         }
       ],
       "components": [],
@@ -33366,6 +35961,33 @@
       "visible": true,
       "layer": 0,
       "prefab": null
+    },
+    {
+      "id": "1410",
+      "name": "SlackMovingPlatform1",
+      "children": [],
+      "components": [],
+      "position": {
+        "x": -14.5,
+        "y": -14,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": {
+        "sceneAssetId": "186"
+      }
     }
   ]
 }
