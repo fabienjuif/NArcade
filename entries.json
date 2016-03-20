@@ -695,6 +695,11 @@
         "id": "143",
         "name": "BrokenGrassPlatform",
         "type": "sprite"
+      },
+      {
+        "id": "228",
+        "name": "BrokenLavaPlatform",
+        "type": "sprite"
       }
     ]
   },

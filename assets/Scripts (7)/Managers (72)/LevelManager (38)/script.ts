@@ -9,7 +9,7 @@ class LevelManager {
     //"Scenes/Tutorial",
     //"Scenes/Presentation",
     //"Scenes/Presentation2",
-    "Scenes/Formation2",
+    //"Scenes/Formation2",
     //"Scenes/Experience",
     "Scenes/Hobbies"
     //"Scenes/Score",
